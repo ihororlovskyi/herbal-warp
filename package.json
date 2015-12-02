@@ -8,10 +8,13 @@
   },
   "jspm": {
     "dependencies": {
+      "history": "npm:history@^1.13.1",
       "jsx": "github:floatdrop/plugin-jsx@^1.1.0",
       "material-ui": "npm:material-ui@^0.13.4",
       "react": "npm:react@^0.14.3",
-      "react-dom": "npm:react-dom@^0.14.3"
+      "react-dom": "npm:react-dom@^0.14.3",
+      "react-router": "npm:react-router@^1.0.0",
+      "react-tap-event-plugin": "npm:react-tap-event-plugin@^0.2.1"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",

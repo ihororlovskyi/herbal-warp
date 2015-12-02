@@ -1,11 +1,13 @@
-'use strict';
-
 import React from 'react';
-import ReactDOM from 'react-dom';
+import {render} from 'react-dom';
+import injectTapEventPlugin from 'react-tap-event-plugin';
+import Main from './components/Main.js';
 
-import Feed from './components/Feed.js';
+window.React = React;
 
-ReactDOM.render(
-	<Feed/>,
-	document.getElementById('app')
+injectTapEventPlugin();
+
+render(
+  <Main />,
+  document.getElementById('app')
 );
