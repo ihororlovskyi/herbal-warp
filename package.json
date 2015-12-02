@@ -1,4 +1,11 @@
 {
+  "name": "herbal-warp",
+  "version": "0.1.0",
+  "description": "web instrument",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ihororlovskyi/herbal-warp.git"
+  },
   "jspm": {
     "dependencies": {
       "jsx": "github:floatdrop/plugin-jsx@^1.1.0",

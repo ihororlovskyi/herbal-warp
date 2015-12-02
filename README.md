@@ -2,18 +2,18 @@
 
 Developing of web instrument
 
-### We use
+### Used
 
-[react.js](http://facebook.github.io/react/index.html)
-[material-ui](http://www.material-ui.com/)
-[react-router](https://github.com/rackt/react-router)
+- [react.js](http://facebook.github.io/react/index.html)
+- [react-router](https://github.com/rackt/react-router)
+- [material-ui](http://www.material-ui.com/)
 
 ### Run
 
-```sh
-$ npm install -g jspm
-$ npm install -g gulp
-$ npm install
-$ jspm install
-$ gulp
+```
+npm install -g jspm
+npm install -g gulp
+npm install
+jspm install
+gulp
 ```
