@@ -1,0 +1,26 @@
+.sidebar {
+	width: 300px;
+	float: left;
+}
+
+.sidebar-logo {
+
+}
+
+
+.sidebar-user {
+
+}
+
+.sidebar-nav {
+	ul {
+		li {
+			a {
+				text-transform: uppercase;
+				display: inline-block;
+				padding: 10px 0;
+				margin-bottom: 10px;
+			}
+		}
+	}
+}
