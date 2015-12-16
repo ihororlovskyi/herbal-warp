@@ -1,58 +1,44 @@
-import gutil from 'gulp-util';
+var dest = './build',
+  src = './src',
+  mui = './node_modules/material-ui/src';
 
-export default {
+module.exports = {
 
-	port: {
-		dev: 8080,
-		dist: 8081
-	},
+  browserSync: {
+    server: {
+      // We're serving the src folder as well
+      // for sass sourcemap linking
+      baseDir: [dest, src]
+    },
+    files: [
+      dest + '/**'
+    ]
+  },
 
-	path: {
-		js: {
-			files: 'src/**/*.js',
-			entry: 'src/app.js',
-			copy: ['jspm_packages/system.js', 'config.js'],
-			jspm: 'jspm_packages/**/*'
-		},
-		sass: {
-			files: 'src/**/*.scss'
-		},
-		html: {
-			files: 'index.html'
-		},
-		image: {
-			files: 'src/img/**/*'
-		},
-		tests: {
-			files: 'karma.conf.js'
-		}
-	},
+  markup: {
+    src: src + "/html/**",
+    dest: dest
+  },
 
-	dev: {
-		dir: 'dev',
-		js: 'dev/js',
-		css: 'dev/css',
-		html: 'dev',
-		image: 'dev/img',
-		jspm: 'dev/jspm_packages'
-	},
+  sass: {
+    src: src + "/scss/**",
+    dest: dest
+  },
 
-	dist: {
-		dir: 'dist',
-		js: 'dist/js',
-		css: 'dist/css',
-		html: 'dist',
-		image: 'dist/img'
-	},
+  autoprefixer: {
+    browsers: ['last 2 versions']
+  },
 
-	autoprefixer: {
-		browsers: ['last 2 versions']
-	},
+  browserify: {
+    // Enable source maps
+    debug: true,
+    // A separate bundle will be generated for each
+    // bundle config in the list below
+    bundleConfigs: [{
+      entries: src + '/app/app.js',
+      dest: dest,
+      outputName: 'app.js'
+    }]
+  }
 
-	htmlReplace: {
-		'js': ['js/bundle.js', 'js/system.js', 'js/config.js'],
-		'css': 'css/bundle.css'
-	},
-
-	handleError: gutil.log,
 };

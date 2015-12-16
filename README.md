@@ -11,9 +11,6 @@ Developing of web instrument
 ### Run
 
 ```
-npm install -g jspm
-npm install -g gulp
 npm install
-jspm install
 gulp
 ```
