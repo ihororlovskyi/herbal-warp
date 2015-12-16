@@ -5,7 +5,7 @@ import { Router, Route, Link } from 'react-router'
 import data from './data'
 
 const history = useBasename(createHistory)({
-  basename: '/sidebar'
+  basename: '/'
 })
 
 class Category extends React.Component {

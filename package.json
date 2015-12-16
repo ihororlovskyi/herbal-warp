@@ -1,10 +1,10 @@
 {
-  "name": "herbal-warp",
+  "name": "sentimony-react",
   "version": "0.1.0",
-  "description": "web instrument",
+  "description": "Web development of Sentimony Records official site",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ihororlovskyi/herbal-warp.git"
+    "url": "https://github.com/sentimony"
   },
   "license": "MIT",
   "scripts": {

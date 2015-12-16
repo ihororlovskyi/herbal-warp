@@ -1,6 +1,6 @@
-# Herbal Wrap
+# Sentimony React
 
-Developing of web instrument
+Web development of Sentimony Records official site
 
 ### Used
 
