@@ -1,12 +1,16 @@
 import React from 'react'
 import { render } from 'react-dom'
-import { createHistory, useBasename } from 'history'
+import { createHashHistory, createHistory, useBasename } from 'history'
 import { Router, Route, Link } from 'react-router'
 import data from './data'
 
-const history = useBasename(createHistory)({
-  basename: '/'
-})
+const history = createHashHistory({
+  queryKey: false
+});
+
+// const history = useBasename(createHistory)({
+//   basename: '/'
+// })
 
 class Category extends React.Component {
   render() {
@@ -29,8 +33,7 @@ class CategorySidebar extends React.Component {
 
     return (
       <div>
-        <Link to="/">◀︎ Back</Link>
-        <h2>{category.name} Items</h2>
+        <h2>{category.name}</h2>
         <ul>
           {category.items.map((item, index) => (
             <li key={index}>
@@ -61,11 +64,8 @@ class Index extends React.Component {
   render() {
     return (
       <div>
-        <h1>Sidebar</h1>
-        <p>
-          Routes can have multiple components, so that all portions of your UI
-          can participate in the routing.
-        </p>
+        <h2>Home</h2>
+        <p>Routes can have multiple components, so that all portions of your UI can participate in the routing.</p>
       </div>
     )
   }
@@ -75,8 +75,8 @@ class IndexSidebar extends React.Component {
   render() {
     return (
       <div>
-        <h2>Categories</h2>
         <ul>
+          <li><Link to={'/'}>home</Link></li>
           {data.getAll().map((category, index) => (
             <li key={index}>
               <Link to={`/${category.name}`}>{category.name}</Link>
