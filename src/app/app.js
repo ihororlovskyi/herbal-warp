@@ -2,6 +2,7 @@ import React from 'react'
 import { render } from 'react-dom'
 import { createHashHistory, createHistory, useBasename } from 'history'
 import { Router, Route, Link } from 'react-router'
+import Radium from 'radium'
 import data from './data'
 
 const history = createHashHistory({
