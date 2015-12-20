@@ -9,3 +9,13 @@ a {
   color: hsl(200, 50%, 40%);
   text-decoration: none;
 }
+#app {
+  background: #ddd;
+  padding: 1em;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

@@ -19,7 +19,6 @@ class Category extends React.Component {
 
     return (
       <div>
-        <h1>{category.name}</h1>
         {this.props.children || (
           <p>{category.description}</p>
         )}
@@ -55,7 +54,7 @@ class Item extends React.Component {
     return (
       <div>
         <h1>{menuItem.name}</h1>
-        <p>${menuItem.price}</p>
+        <a href={menuItem.price} target='_blank'>bandcamp</a>
       </div>
     )
   }
@@ -66,7 +65,7 @@ class Index extends React.Component {
     return (
       <div>
         <h2>Home</h2>
-        <p>Routes can have multiple components, so that all portions of your UI can participate in the routing.</p>
+        <p>Home description</p>
       </div>
     )
   }
