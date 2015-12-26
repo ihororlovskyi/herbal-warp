@@ -5,6 +5,9 @@ import { Router, Route, Link } from 'react-router'
 import Radium from 'radium'
 import data from './data'
 
+import Index from './components/Index'
+import HeaderMenu from './components/HeaderMenu'
+
 const history = createHashHistory({
   queryKey: false
 });
@@ -60,43 +63,14 @@ class Item extends React.Component {
   }
 }
 
-class Index extends React.Component {
-  render() {
-    return (
-      <div>
-        <h2>Home</h2>
-        <p>Home description</p>
-      </div>
-    )
-  }
-}
-
-class IndexSidebar extends React.Component {
-  render() {
-    return (
-      <div>
-        <ul>
-          <li><Link to={'/'}>home</Link></li>
-          {data.getAll().map((category, index) => (
-            <li key={index}>
-              <Link to={`/${category.name}`}>{category.name}</Link>
-            </li>
-          ))}
-        </ul>
-      </div>
-    )
-  }
-}
-
 class App extends React.Component {
   render() {
     const { content, sidebar } = this.props
 
     return (
       <div>
-
         <div className="Sidebar">
-          <IndexSidebar />
+          <HeaderMenu />
         </div>
         <div className="Sidebar">
           {sidebar}

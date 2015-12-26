@@ -3,7 +3,8 @@ body {
   background: #ebebeb;
   margin: 0 auto;
   // padding: 4em;
-  width: 40em;
+  min-width: 300px;
+  max-width: 600px;
 }
 a {
   color: hsl(200, 50%, 40%);
