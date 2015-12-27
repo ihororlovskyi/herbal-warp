@@ -1,6 +1,6 @@
 const data = [
   // {
-  //   name: 'home',
+  //   name: 'about',
   //   description: 'Home description',
   //   items: [
   //     {  },
@@ -10,10 +10,10 @@ const data = [
     name: 'releases',
     description: 'Releases description',
     items: [
-      { name: 'tentura-beyond-illusion', price: 'https://sentimony.bandcamp.com/album/tentura-beyond-illusion' },
-      { name: 'psyfactor-retro-scientific', price: 'https://sentimony.bandcamp.com/album/psyfactor-retro-scientific' },
-      { name: 'cifroteca-roof-raiser-wild-storm', price: 'https://aquadeep.bandcamp.com/album/cifroteca-roof-raiser-wild-storm' },
-      { name: 'tentura-aurora', price: 'https://sentimony.bandcamp.com/album/tentura-aurora' },
+      { name: 'tentura-beyond-illusion', bandcamp: 'https://sentimony.bandcamp.com/album/tentura-beyond-illusion' },
+      { name: 'psyfactor-retro-scientific', bandcamp: 'https://sentimony.bandcamp.com/album/psyfactor-retro-scientific' },
+      { name: 'cifroteca-roof-raiser-wild-storm', bandcamp: 'https://aquadeep.bandcamp.com/album/cifroteca-roof-raiser-wild-storm' },
+      { name: 'tentura-aurora', bandcamp: 'https://sentimony.bandcamp.com/album/tentura-aurora' },
     ]
   },
   {
