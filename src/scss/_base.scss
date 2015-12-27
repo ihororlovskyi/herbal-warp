@@ -9,3 +9,12 @@ a {
   color: hsl(200, 50%, 40%);
   text-decoration: none;
 }
+
+ul {
+  display: flex;
+  flex-flow: row wrap;
+
+  li {
+    flex: 1 0px;
+  }
+}

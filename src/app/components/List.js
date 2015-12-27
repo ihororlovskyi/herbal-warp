@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router'
 import data from './../data'
 import Ink from 'react-ink'
+import Radium from 'radium'
 
 import Clearfix from './Clearfix'
 
@@ -16,10 +17,10 @@ class List extends React.Component {
           <p>{category.description}</p>
         </div>
         <Clearfix>
-          <ul style={ul}>
+          <ul style={styles.ul}>
             {category.items.map((item, index) => (
-              <li style={li} key={index}>
-                <Link to={`/${category.name}/${item.name}`} style={a} activeStyle={selected}>
+              <li style={styles.li} key={index}>
+                <Link to={`/${category.name}/${item.name}`} style={styles.a} activeStyle={selected}>
                   {item.name}
                   <Ink/>
                 </Link>
@@ -32,25 +33,34 @@ class List extends React.Component {
   }
 }
 
-const ul = { 
-  listStyle: 'none',
-  margin: '0',
-  padding: '0',
-}
-
-const li = { 
-  float: 'left',
-  maxWidth: '25%',
-}
-
-const a = { 
-  position: 'relative',
-  padding: '10px',
-  display: 'block',
-}
-
 const selected = { 
   background: '#ccc',
 }
 
-module.exports = List
+const styles = {
+  ul: {
+    listStyle: 'none',
+    margin: '0',
+    padding: '0',
+    display: 'flex',
+    flexFlow: 'row wrap',
+    position: 'relative',
+
+  },
+  li: {
+    flex: '1 0px',
+    position: 'relative',
+    width: '100%',
+    paddingBottom: '25%',
+  },
+  a: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+    padding: '0 10px',
+  }
+}
+
+module.exports = Radium(List)
