@@ -4,9 +4,9 @@ import { createHashHistory, createHistory, useBasename } from 'history'
 import { Router, Route, Link } from 'react-router'
 import Radium from 'radium'
 
-import App from './components/App'
+import Wrapper from './components/Wrapper'
 import Index from './components/Index'
-import HeaderMenu from './components/HeaderMenu'
+import Header from './components/Header'
 import Category from './components/Category'
 import List from './components/List'
 import Item from './components/Item'
@@ -22,7 +22,7 @@ const history = createHashHistory({
 
 render((
   <Router history={history}>
-    <Route path="/" component={App}>
+    <Route path="/" component={Wrapper}>
       <Route path=":category" components={{ content: Category, sidebar: List }}>
         <Route path=":item" component={Item} />
       </Route>
