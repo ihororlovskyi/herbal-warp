@@ -1,7 +1,7 @@
 import React from 'react'
 import Radium from 'radium'
 
-class Index extends React.Component {
+class PageAbout extends React.Component {
   render() {
     return (
       <div style={styles.index}>
@@ -17,14 +17,14 @@ const styles = {
     background: '#ddd',
     padding: '10px',
     width: '100%',
-    // maxWidth: '800px',
-    // margin: '0 auto',
-    // boxSizing: 'border-box',
+    maxWidth: '800px',
+    margin: '0 auto',
+    boxSizing: 'border-box',
 
     '@media (min-width: 600px)': {
-      order: '3',
+      // order: '3',
     },
   },
 }
 
-module.exports = Radium(Index)
+module.exports = Radium(PageAbout)

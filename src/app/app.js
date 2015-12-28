@@ -5,7 +5,7 @@ import { Router, Route, Link } from 'react-router'
 import Radium from 'radium'
 
 import Wrapper from './components/Wrapper'
-import Index from './components/Index'
+import PageAbout from './components/PageAbout'
 import Header from './components/Header'
 import Category from './components/Category'
 import List from './components/List'

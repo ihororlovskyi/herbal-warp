@@ -2,7 +2,7 @@ import React from 'react'
 import Radium from 'radium'
 
 import Header from './Header'
-import Index from './Index'
+import PageAbout from './PageAbout'
 import Footer from './Footer'
 
 class Wrapper extends React.Component {
@@ -12,7 +12,7 @@ class Wrapper extends React.Component {
     return (
       <div style={styles.wrapper}>
         <Header/>
-        {sidebar || <Index/>}
+        {sidebar || <PageAbout/>}
         {content}
         <Footer/>
       </div>
@@ -22,8 +22,8 @@ class Wrapper extends React.Component {
 
 const styles = {
   wrapper: {
-    display: 'flex',
-    flexFlow: 'row wrap',
+    maxWidth: '800px',
+    margin: '0 auto',
   },
 }
 

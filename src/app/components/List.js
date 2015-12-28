@@ -4,21 +4,25 @@ import data from './../data'
 import Ink from 'react-ink'
 import Radium from 'radium'
 
+import Clearfix from './Clearfix'
+
 class List extends React.Component {
   render() {
     const category = data.lookupCategory(this.props.params.category)
 
     return (
-      <ul style={styles.ul}>
-        {category.items.map((item, index) => (
-          <li style={styles.li} key={index}>
-            <Link to={`/${category.name}/${item.name}`} style={styles.a} activeStyle={selected}>
-              {item.name}
-              <Ink/>
-            </Link>
-          </li>
-        ))}
-      </ul>
+      <Clearfix>
+        <ul style={styles.ul}>
+          {category.items.map((item, index) => (
+            <li style={styles.li} key={index}>
+              <Link to={`/${category.name}/${item.name}`} style={styles.a} activeStyle={selected}>
+                {item.name}
+                <Ink/>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </Clearfix>
     )
   }
 }
@@ -29,39 +33,30 @@ const selected = {
 
 const styles = {
   ul: {
-    flex: '1 100%',
     listStyle: 'none',
-    margin: '0',
-    padding: '0 40px 0 0',
-    // display: 'flex',
-    // flexFlow: 'row wrap',
-    // position: 'relative',
-    background: '#ccc',
-    // width: '200px',
+    margin: '0 -10px',
+    padding: '0',
 
     '@media (min-width: 600px)': {
-      flex: '1 auto',
-      order: '2',
-      padding: '0',
     },
   },
   li: {
-    // flex: '1 0px',
-    // position: 'relative',
-    // width: '100%',
-    // paddingBottom: '20%',
-    // overflow: 'hidden',
+    position: 'relative',
+    float: 'left',
+    width: '25%',
+    overflow: 'hidden',
+    paddingBottom: '25%',
   },
   a: {
-    // position: 'absolute',
-    // top: 0,
-    // left: 0,
-    // right: 0,
-    // bottom: 0,
+    position: 'absolute',
+    top: '10px',
+    left: '10px',
+    right: '10px',
+    bottom: '10px',
     background: '#ddd',
-    position: 'relative',
-    padding: '10px',
+    // padding: '10px',
     display: 'block',
+    // boxSizing: 'border-box',
   }
 }
 

@@ -7,7 +7,7 @@ class Category extends React.Component {
     const category = data.lookupCategory(this.props.params.category)
 
     return (
-      <div style={styles.footer}>
+      <div style={styles.category}>
         {this.props.children}
       </div>
     )
@@ -15,7 +15,7 @@ class Category extends React.Component {
 }
 
 const styles = {
-  footer: {
+  category: {
     flex: '1 100%',
     // textAlign: 'center',
     background: '#ccc',
