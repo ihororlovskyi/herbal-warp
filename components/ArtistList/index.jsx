@@ -21,8 +21,10 @@ class ArtistList extends React.Component {
                 pageLinks.push(
                     <li key={ key }>
                         <Link to={ prefixLink(page.path) } className='artist-list__link' activeClassName='is-selected' >
-                            <img className='artist-list__cover' src={ prefixLink(`../..${ page.path }cover.jpg`) } />
-                            { title }
+                            <div className='artist-list__thumbnail'>
+                                <img className='artist-list__cover' src={ prefixLink(`../..${ page.path }cover.jpg`) } />
+                            </div>
+                            <div className='artist-list__title'>{ title }</div>
                             <Ink />
                         </Link>
                     </li>

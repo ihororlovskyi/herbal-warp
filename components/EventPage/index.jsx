@@ -14,13 +14,13 @@ class ReleasePage extends React.Component {
         const post = route.page.data
 
         return (
-            <div className='artist-page'>
-                <div className='artist-page__sidebar'>
+            <div className='event-page'>
+                <div className='event-page__sidebar'>
                     <EventList {...this.props} />
                 </div>
-                <div className='artist-page__content'>
-                    <img className='artist-page__cover' src={ prefixLink(`../..${ post.path }cover.jpg`) } alt={ post.title } />
-                    <h1 className='artist-page__title'>{ post.title }</h1>
+                <div className='event-page__content'>
+                    <img className='event-page__cover' src={ prefixLink(`../..${ post.path }cover.jpg`) } alt={ post.title } />
+                    <h1 className='event-page__title'>{ post.title }</h1>
                     <div dangerouslySetInnerHTML={ {    __html: post.body} } />
                 </div>
             </div>

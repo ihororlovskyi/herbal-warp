@@ -9,9 +9,12 @@ key: irukanji
 meta: Irukanji
 keywords: Irukanji
 
+location: Ukraine
 website: http://irukanji-music.com/
 bandcamp: https://irukanji.bandcamp.com
+bandcampLabelTrack: 1491637281
 soundcloud: https://soundcloud.com/irukanji-music
+soundcloudTrack: 63195526
 facebook: https://www.facebook.com/irukanji.music
 mixcloud: https://www.mixcloud.com/irukanji-music
 youtube: 

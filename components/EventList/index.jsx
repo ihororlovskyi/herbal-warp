@@ -20,8 +20,8 @@ class EventList extends React.Component {
 
                 pageLinks.push(
                     <li key={ key }>
-                        <Link to={ prefixLink(page.path) } className='artist-list__link' activeClassName='is-selected' >
-                            <img className='artist-list__cover' src={ prefixLink(`../..${ page.path }cover.jpg`) } />
+                        <Link to={ prefixLink(page.path) } className='event-list__link' activeClassName='is-selected' >
+                            <img className='event-list__cover' src={ prefixLink(`../..${ page.path }cover.jpg`) } />
                             { title }
                             <Ink />
                         </Link>
@@ -31,7 +31,7 @@ class EventList extends React.Component {
         })
 
         return (
-            <ul className='artist-list'>
+            <ul className='event-list'>
                 { pageLinks }
             </ul>
         );

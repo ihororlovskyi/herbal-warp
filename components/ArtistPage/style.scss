@@ -1,4 +1,5 @@
 @import '../../node_modules/coriolan-ui/mixins/clearfix';
+@import '../../node_modules/coriolan-ui/mixins/ratio';
 
 $sidebarWidth: 260px;
 $gridIndent: 20px;
@@ -25,15 +26,83 @@ $gridIndent: 20px;
     &__title {
         // float: left;
         // width: 100%;
+        margin: 0 0 20px;
+    }
+
+    &__location {
+        font-size: 12px;
+        font-style: italic;
+        margin-bottom: 24px;
+    }
+
+    &__thumbnail {
+        margin: 0 20px 20px 0;
+        float: left;
+        @include ratio(40%,1,1);
+        // max-width: 222px;
+        overflow: hidden;
+        background: #222;
     }
 
     &__cover {
+        position: absolute;
+        top: 50%;
+        left: auto;
         // float: left;
         width: 100%;
         height: auto;
-        display: block;
-        max-width: 222px;
-        margin: 0 20px 20px 0;
+        // display: block;
+        transform: translate3d(0,-50%,0) scale(1.1);
+    }
+
+    &__iframe-soundcloud {
+        border: 0;
+        width: 100%;
         float: left;
+        // display: block;
+        height: 160px;
+        margin-bottom: 20px;
+    }
+
+    &__iframe-bandcamp {
+        border: 0;
+        width: 100%;
+        float: left;
+        // display: block;
+        height: 120px;
+        // height: 42px;
+        margin-bottom: 20px;
+        // display: none;
+        // visibility: hidden;
+    }
+
+    &__soc-ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        font-size: 0;
+        margin-bottom: 20px;
+    }
+
+    &__soc-li {
+        display: inline-block;
+        font-size: 14px;
+        line-height: 20px;
+        width: 40px;
+        margin-right: 10px;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    &__soc-a {
+        text-decoration: none;
+        padding: 10px 6px;
+        display: block;
+        color: #ccc;
+        background: #222;
+
+        &:hover {
+            background: #666;
+        }
     }
 }

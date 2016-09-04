@@ -9,13 +9,27 @@ key: tentura
 meta: Tentura
 keywords: Tentura
 
+location: Ukraine
 website: 
 bandcamp: 
-soundcloud: 
+bandcampLabelTrack: 1237438204
+soundcloud: http://soundcloud.com/tentura
+soundcloudTrack: 160432337
 facebook: https://www.facebook.com/Tentura.Music
-mixcloud: 
+mixcloud: https://www.mixcloud.com/adertentura
 youtube: 
-discogs: 
+discogs: https://www.discogs.com/artist/1352218-Tentura
 ---
 
-Tentura info coming soon.
+Since 2005, Tentura began to create music for the purpose of awakening the creative energy of the people. Music - a powerful thing, which directly affects the mind, so we try to make all our efforts to get people to be happier and feel better!
+
+The project was formed in 2008 by two talented guys: composer Alexander Podgorny and psytrance DJ Stanislav Yastremsky (DJ Maket).
+Well-known psychedelic chill out and deep trance duo from Kyiv, Ukraine.
+
+Often, Alexander perform live performance at the Ukrainian festivals, open airs, and indoor parties.
+
+Since 2013 Ader write tracks alone witch the help of the community.
+
+Еstablished more than twenty works in the style chill-out, five of them came to the Canadian label compilations "Altar Records".
+
+Periodically, Alexander and Stanislav perform at festivals, open air and night clubs in Ukraine.

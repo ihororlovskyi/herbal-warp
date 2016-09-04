@@ -19,19 +19,30 @@ class ReleasePage extends React.Component {
                     <ArtistList {...this.props} />
                 </div>
                 <div className='artist-page__content'>
-                    <img className='artist-page__cover' src={ prefixLink(`../..${ post.path }cover.jpg`) } alt={ post.title } />
+
+                    <div className='artist-page__thumbnail'>
+                        <img className='artist-page__cover' src={ prefixLink(`../..${ post.path }cover.jpg`) } alt={ post.title } />
+                    </div>
+
                     <h1 className='artist-page__title'>{ post.title }</h1>
+
+                    <div className='artist-page__location'>{ post.location }</div>
+
+                    { !!post.soundcloudTrack ? '' : <iframe className='artist-page__iframe-soundcloud' scrolling='no' src={`https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/${ post.soundcloudTrack }&amp;color=00aabb&amp;auto_play=true&amp;show_artwork=true&amp;download=true&amp;sharing=false&amp;hide_related=true&amp;show_comments=true&amp;show_user=false&amp;show_reposts=false&amp`} /> }
+                    { !!post.bandcampLabelTrack ? <iframe className='artist-page__iframe-bandcamp' src={`https://bandcamp.com/EmbeddedPlayer/size=large/bgcol=222222/linkcol=4ec5ec/tracklist=false/artwork=small/track=${ post.bandcampLabelTrack }/transparent=true/`} seamless /> : '' }
+
+                    <ul className='artist-page__soc-ul'>
+                        { !!post.soundcloud ? <li className='artist-page__soc-li'><a className='artist-page__soc-a' href={ post.soundcloud } target='_blank'>sc</a></li> : '' }
+                        { !!post.facebook ? <li className='artist-page__soc-li'><a className='artist-page__soc-a' href={ post.facebook } target='_blank'>fb</a></li> : '' }
+                        { !!post.mixcloud ? <li className='artist-page__soc-li' style={{display:'none'}}><a className='artist-page__soc-a' href={ post.mixcloud } target='_blank'>mc</a></li> : '' }
+                        { !!post.youtube ? <li className='artist-page__soc-li' style={{display:'none'}}><a className='artist-page__soc-a' href={ post.youtube } target='_blank'>yt</a></li> : '' }
+                        { !!post.discogs ? <li className='artist-page__soc-li' style={{display:'none'}}><a className='artist-page__soc-a' href={ post.discogs } target='_blank'>dc</a></li> : '' }
+                        { !!post.bandcamp ? <li className='artist-page__soc-li'><a className='artist-page__soc-a' href={ post.bandcamp } target='_blank'>bc</a></li> : '' }
+                        { !!post.website ? <li className='artist-page__soc-li'><a className='artist-page__soc-a' href={ post.website } target='_blank'>ws</a></li> : '' }
+                    </ul>
+
                     <div dangerouslySetInnerHTML={ {    __html: post.body} } />
 
-                    <ul>
-                        { !!post.website ? <li><a href={ post.website } target='_blank'>website</a></li> : '' }
-                        { !!post.bandcamp ? <li><a href={ post.bandcamp } target='_blank'>bandcamp</a></li> : '' }
-                        { !!post.soundcloud ? <li><a href={ post.soundcloud } target='_blank'>soundcloud</a></li> : '' }
-                        { !!post.facebook ? <li><a href={ post.facebook } target='_blank'>facebook</a></li> : '' }
-                        { !!post.mixcloud ? <li><a href={ post.mixcloud } target='_blank'>mixcloud</a></li> : '' }
-                        { !!post.youtube ? <li><a href={ post.youtube } target='_blank'>youtube</a></li> : '' }
-                        { !!post.discogs ? <li><a href={ post.discogs } target='_blank'>discogs</a></li> : '' }
-                    </ul>
                 </div>
             </div>
         );

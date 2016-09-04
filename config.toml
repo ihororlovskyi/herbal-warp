@@ -12,4 +12,4 @@ siteGithubUrl = 'https://github.com/sentimony'
 poweredUrl = 'http://ihororlovskyi.com'
 poweredTitle = 'Ihor Orlovskyi'
 
-linkPrefix = "/sentimony-react"
+linkPrefix = "/sentimony-react/"

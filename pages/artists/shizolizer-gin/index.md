@@ -9,13 +9,16 @@ key: shizolizer-gin
 meta: ShizoLizer Gin
 keywords: ShizoLizer Gin
 
+location: Ukraine
 website: 
 bandcamp: 
-soundcloud: 
+bandcampLabelTrack: 1730833443
+soundcloud: https://soundcloud.com/molo-dimolo
+soundcloudTrack: 196313124
 facebook: https://www.facebook.com/shizolizergin
 mixcloud: 
 youtube: 
-discogs: 
+discogs: https://www.discogs.com/artist/1880433-ShizoLizer-Gin
 ---
 
 ShizoLizer Gin info coming soon.
