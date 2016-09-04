@@ -24,13 +24,13 @@ class ReleasePage extends React.Component {
                     <div dangerouslySetInnerHTML={ {    __html: post.body} } />
 
                     <ul>
-                        <li><a href={ post.website } target='_blank'>website</a></li>
-                        <li><a href={ post.bandcamp } target='_blank'>bandcamp</a></li>
-                        <li><a href={ post.soundcloud } target='_blank'>soundcloud</a></li>
-                        <li><a href={ post.facebook } target='_blank'>facebook</a></li>
-                        <li><a href={ post.mixcloud } target='_blank'>mixcloud</a></li>
-                        <li><a href={ post.youtube } target='_blank'>youtube</a></li>
-                        <li><a href={ post.discogs } target='_blank'>discogs</a></li>
+                        { !!post.website ? <li><a href={ post.website } target='_blank'>website</a></li> : '' }
+                        { !!post.bandcamp ? <li><a href={ post.bandcamp } target='_blank'>bandcamp</a></li> : '' }
+                        { !!post.soundcloud ? <li><a href={ post.soundcloud } target='_blank'>soundcloud</a></li> : '' }
+                        { !!post.facebook ? <li><a href={ post.facebook } target='_blank'>facebook</a></li> : '' }
+                        { !!post.mixcloud ? <li><a href={ post.mixcloud } target='_blank'>mixcloud</a></li> : '' }
+                        { !!post.youtube ? <li><a href={ post.youtube } target='_blank'>youtube</a></li> : '' }
+                        { !!post.discogs ? <li><a href={ post.discogs } target='_blank'>discogs</a></li> : '' }
                     </ul>
                 </div>
             </div>

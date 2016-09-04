@@ -9,13 +9,13 @@ key: zymosis
 meta: Zymosis
 keywords: Zymosis
 
-website: 
-bandcamp: 
-soundcloud: 
-facebook: 
+website: http://zymosis.info/
+bandcamp: https://zymosis.bandcamp.com/
+soundcloud: https://soundcloud.com/zymosis
+facebook: https://www.facebook.com/Zymosis.project
 mixcloud: 
-youtube: 
-discogs: 
+youtube: https://www.youtube.com/user/dimitroz
+discogs: https://www.discogs.com/artist/588937-Zymosis
 ---
 
 Zymosis lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni quasi, inventore a pariatur fugiat tempore neque repudiandae sint unde ducimus eaque ratione recusandae ullam natus quaerat, esse omnis harum cum.
