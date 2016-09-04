@@ -18,6 +18,6 @@ youtube:
 discogs: https://www.discogs.com/artist/1375976-Irukanji
 ---
 
-Irukanji lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni quasi, inventore a pariatur fugiat tempore neque repudiandae sint unde ducimus eaque ratione recusandae ullam natus quaerat, esse omnis harum cum.
+Behind Irukanji project standing talented musician and charismatic dj - Ihor Orlovskyi, also known as founder of Sentimony Records, established in autumn 2006.
 
-Sapiente recusandae, aspernatur expedita ullam ipsum veniam quae ex ducimus dolorem ad saepe fugit cum repellat autem, sunt impedit dolor. Sequi fugiat iusto ducimus vel?
+Irukanji music combined all experimental ideas and fresh twisted downtempo style. Ihor is breaking all rules and standing beyond the scope. In his tracks you will hear the crazy pure psychedelic downbeats, wrapped into mysterious tales.

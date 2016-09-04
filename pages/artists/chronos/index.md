@@ -1,5 +1,5 @@
 ---
-id: 5
+id: 3
 title: Chronos
 layout: ArtistPage
 category: artists
@@ -12,12 +12,12 @@ keywords: Chronos
 website: 'http://chronos-music.ru/'
 bandcamp: 
 soundcloud: https://soundcloud.com/chronosproject
-facebook: https://www.facebook.com/chronosproject
-mixcloud: 
+facebook: https://www.facebook.com/Chronos-176464275733714
+mixcloud: https://www.mixcloud.com/chronosmusic
 youtube: https://www.youtube.com/user/chronosproject
 discogs: https://www.discogs.com/artist/503097-Chronos-4
 ---
 
-Chronos lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni quasi, inventore a pariatur fugiat tempore neque repudiandae sint unde ducimus eaque ratione recusandae ullam natus quaerat, esse omnis harum cum.
+Chronos music can be easily recognized by its strong atmosphere, ever present emotional strick, its musicality and by the blend of acoustic instruments into the dominant electronic pattern. Genre wise it can be said it explores the paths between ambient, chillout, ethnic music and psychedelic hypnotic trance vibrations
 
-Sapiente recusandae, aspernatur expedita ullam ipsum veniam quae ex ducimus dolorem ad saepe fugit cum repellat autem, sunt impedit dolor. Sequi fugiat iusto ducimus vel?
+He also performs regularly at festivals and events in Russia and around the world and has shared the stage with the leading acts of the scene.

@@ -13,11 +13,11 @@ website: http://zymosis.info/
 bandcamp: https://zymosis.bandcamp.com/
 soundcloud: https://soundcloud.com/zymosis
 facebook: https://www.facebook.com/Zymosis.project
-mixcloud: 
+mixcloud: https://www.mixcloud.com/zymosis
 youtube: https://www.youtube.com/user/dimitroz
 discogs: https://www.discogs.com/artist/588937-Zymosis
 ---
 
-Zymosis lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni quasi, inventore a pariatur fugiat tempore neque repudiandae sint unde ducimus eaque ratione recusandae ullam natus quaerat, esse omnis harum cum.
+Zymosis is one of the most promising Ukranian psy-trance projects which has brought a bright light to the psychedelic culture over the past 10 years. Zymosis music successfully combine elements of deep chill, ambient and downtempo sounds with the bright melodious harmonies.
 
-Sapiente recusandae, aspernatur expedita ullam ipsum veniam quae ex ducimus dolorem ad saepe fugit cum repellat autem, sunt impedit dolor. Sequi fugiat iusto ducimus vel?
+Nowadays Dimitro is also working on goa-trance project Alienapia, which has already been released on popular compilations and it becomes famous with every new day.

@@ -13,11 +13,11 @@ website:
 bandcamp: https://astropilotmusic.bandcamp.com
 soundcloud: https://soundcloud.com/astropilot
 facebook: https://www.facebook.com/astropilot
-mixcloud: 
-youtube: 
+mixcloud: http://www.mixcloud.com/astropilot
+youtube: https://www.youtube.com/user/dimastropilot
 discogs: https://www.discogs.com/artist/483423-AstroPilot
 ---
 
-AstroPilot lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni quasi, inventore a pariatur fugiat tempore neque repudiandae sint unde ducimus eaque ratione recusandae ullam natus quaerat, esse omnis harum cum.
+AstroPilot is psychill/psybient alliase of Russian/Ukranian composer Dmitriy Redko. The project was started with ethno-chill/psydub sound on debut album "Fruits Of The Imagination" and releases on various compilations.
 
-Sapiente recusandae, aspernatur expedita ullam ipsum veniam quae ex ducimus dolorem ad saepe fugit cum repellat autem, sunt impedit dolor. Sequi fugiat iusto ducimus vel?
+But later after years AstroPilot music transformed to more spacy and progressive. And now style of the project could divided on 2 main parts: space ambient and progressive chillout/psybient.
