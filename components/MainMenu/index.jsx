@@ -34,6 +34,18 @@ class MainMenu extends React.Component {
                         <Ink />
                     </Link> 
 
+                    <Link to={ prefixLink('/artists/')} className={`mainmenu__link ${ location.pathname.indexOf(prefixLink('/artists/')) == 0 ? 'is-selected' : '' }`}>
+                        <img className='mainmenu__link-svg' src={ prefixLink(iconDiscography) }/>
+                        <span className='mainmenu__link-name'>Artists</span>
+                        <Ink />
+                    </Link> 
+
+                    <Link to={ prefixLink('/events/')} className={`mainmenu__link ${ location.pathname.indexOf(prefixLink('/events/')) == 0 ? 'is-selected' : '' }`}>
+                        <img className='mainmenu__link-svg' src={ prefixLink(iconDiscography) }/>
+                        <span className='mainmenu__link-name'>Events</span>
+                        <Ink />
+                    </Link> 
+
                     <div className='mainmenu__social-nav'>
 
                         <span className='mainmenu__join'>Follow</span>

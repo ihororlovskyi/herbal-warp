@@ -1,5 +1,5 @@
 ---
-title: 'Discography'
+title: 'Releases'
 layout: Releases
 path: '/releases/'
 

@@ -2,26 +2,16 @@
 id: 1
 title: VA «Fantazma»
 layout: ReleasePage
-category: discography
+category: releases
 path: '/releases/va-fantazma/'
 key: va-fantazma
 
-meta: VA - Fantazma by Sentimony Records
-keywords: VA Fantazma, Sentimony Records
+meta: VA Fantazma
+keywords: VA Fantazma
 
-label: Sentimony Records
-ektoplazm: free-music/fantazma
-label-link: sentimony.com/release/va-fantazma
-label-bandcamp: sentimony.bandcamp.com/album/va-fantazma
-label-bandcamp-id: 3399361938
-
-bandcamp-album: 2563369517
-bandcamp-track: 3110776069
-bandcamp-track2: 1810845756
-
-bandcamp-lable-album: 
-bandcamp-lable-track: 
-
+bandcampId: 3399361938
+bandcamp: https://sentimony.bandcamp.com/album/va-fantazma
+ektoplazm: http://www.ektoplazm.com/free-music/fantazma
 discogs: http://www.discogs.com/Various-Fantazma/release/952240
 ---
 

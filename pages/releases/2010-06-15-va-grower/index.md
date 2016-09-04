@@ -1,26 +1,17 @@
 ---
-id: 10
+id: 9
 title: VA «Grower»
 layout: ReleasePage
-category: discography
+category: releases
 path: '/releases/va-grower/'
 key: va-grower
 
-meta: VA - Grower by Lookinglook Records
-keywords: VA Grower, Lookinglook Records
+meta: VA Grower
+keywords: VA Grower
 
-label: Lookinglook Records
-ektoplazm: free-music/grower
-label-link: lookinglook.com/release/va-grower
-label-bandcamp: lookinglook.bandcamp.com/album/va-grower
-label-bandcamp-id: 4231998669
-
-bandcamp-album: 2563369517
-bandcamp-track: 1413874919
-
-bandcamp-lable-album: 
-bandcamp-lable-track: 
-
+bandcampId: 4231998669
+bandcamp: https://lookinglook.bandcamp.com/album/va-grower
+ektoplazm: http://www.ektoplazm.com/free-music/grower
 discogs: http://www.discogs.com/Various-Grower/release/2356268
 ---
 

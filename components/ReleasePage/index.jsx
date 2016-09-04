@@ -8,7 +8,7 @@ import ReleaseList from '../ReleaseList'
 
 import './style.scss'
 
-class SitePost extends React.Component {
+class ReleasePage extends React.Component {
     render() {
         const {route} = this.props
         const post = route.page.data
@@ -28,9 +28,9 @@ class SitePost extends React.Component {
     }
 }
 
-SitePost.propTypes = {
+ReleasePage.propTypes = {
     post: React.PropTypes.object,
     pages: React.PropTypes.array,
 }
 
-export default SitePost
+export default ReleasePage

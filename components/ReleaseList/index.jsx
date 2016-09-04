@@ -7,13 +7,13 @@ import Ink from 'react-ink'
 
 import './style.scss'
 
-class MixinList extends React.Component {
+class ReleaseList extends React.Component {
     render() {
         const pageLinks = []
 
         const sortedPages = sortBy(this.props.route.pages, (page) => access(page, 'data.id')).reverse()
         sortedPages.forEach((page) => {
-            if (access(page, 'file.ext') === 'md' && access(page, 'data.category') === 'discography') {
+            if (access(page, 'file.ext') === 'md' && access(page, 'data.category') === 'releases') {
                 const id = access(page, 'data.id') || page.path
                 const key = access(page, 'data.key') || page.path
                 const title = access(page, 'data.title') || page.path
@@ -38,8 +38,8 @@ class MixinList extends React.Component {
     }
 }
 
-MixinList.propTypes = {
+ReleaseList.propTypes = {
     route: React.PropTypes.object,
 }
 
-export default MixinList
+export default ReleaseList
