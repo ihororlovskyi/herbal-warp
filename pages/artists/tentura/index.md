@@ -12,7 +12,7 @@ keywords: Tentura
 location: Ukraine
 website: 
 bandcamp: 
-bandcampLabelTrack: 1237438204
+bandcampLabelTrack: 1345534488
 soundcloud: http://soundcloud.com/tentura
 soundcloudTrack: 160432337
 facebook: https://www.facebook.com/Tentura.Music

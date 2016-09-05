@@ -19,7 +19,7 @@ class ReleasePage extends React.Component {
                     <EventList {...this.props} />
                 </div>
                 <div className='event-page__content'>
-                    <img className='event-page__cover' src={ prefixLink(`../..${ post.path }cover.jpg`) } alt={ post.title } />
+                    <img className='event-page__cover' src={ prefixLink(`${ post.path }cover.jpg`) } alt={ post.title } />
                     <h1 className='event-page__title'>{ post.title }</h1>
                     <div dangerouslySetInnerHTML={ {    __html: post.body} } />
                 </div>

@@ -21,7 +21,7 @@ class EventList extends React.Component {
                 pageLinks.push(
                     <li key={ key }>
                         <Link to={ prefixLink(page.path) } className='event-list__link' activeClassName='is-selected' >
-                            <img className='event-list__cover' src={ prefixLink(`../..${ page.path }cover.jpg`) } />
+                            <img className='event-list__cover' src={ prefixLink(`${ page.path }cover.jpg`) } />
                             { title }
                             <Ink />
                         </Link>
