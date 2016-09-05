@@ -9,7 +9,7 @@ key: va-gamayun-tale
 meta: VA Gamayun Tale
 keywords: VA Gamayun Tale
 
-bandcampId: 3538385956
+bandcampAlbum: 3538385956
 bandcamp: https://lookinglook.bandcamp.com/album/va-gamayun-tale
 ektoplazm: 
 discogs: http://www.discogs.com/Various-Gamayun-Tale/release/5400874

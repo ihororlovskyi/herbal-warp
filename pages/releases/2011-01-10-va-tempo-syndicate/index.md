@@ -9,7 +9,7 @@ key: va-tempo-syndicate
 meta: VA Tempo Syndicate
 keywords: VA Tempo Syndicate
 
-bandcampId: 2483216888
+bandcampAlbum: 2483216888
 bandcamp: https://sentimony.bandcamp.com/album/va-tempo-syndicate
 ektoplazm: http://www.ektoplazm.com/free-music/tempo-syndicate
 discogs: http://www.discogs.com/Various-Tempo-Syndicate/release/2645251

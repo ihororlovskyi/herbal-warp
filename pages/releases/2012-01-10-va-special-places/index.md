@@ -9,7 +9,7 @@ key: va-special-places
 meta: VA Special Places
 keywords: VA Special Places
 
-bandcampId: 64124286
+bandcampAlbum: 64124286
 bandcamp: https://sentimony.bandcamp.com/album/va-special-places
 ektoplazm: http://www.ektoplazm.com/free-music/special-places
 discogs: http://www.discogs.com/AstroPilot-Special-Places/release/3517621

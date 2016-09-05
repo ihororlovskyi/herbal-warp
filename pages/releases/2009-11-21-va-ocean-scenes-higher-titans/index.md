@@ -9,7 +9,7 @@ key: va-ocean-scenes-higher-titans
 meta: VA Ocean Scenes Higher Titans
 keywords: VA Ocean Scenes Higher Titans
 
-bandcampId: 3486103233
+bandcampAlbum: 3486103233
 bandcamp: https://aquadeep.bandcamp.com/album/va-ocean-scenes-higher-titans
 ektoplazm: http://www.ektoplazm.com/free-music/ocean-scenes-higher-titans
 discogs: http://www.discogs.com/Various-Ocean-Scenes-Higher-Titans/release/2023159

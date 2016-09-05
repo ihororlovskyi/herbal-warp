@@ -9,7 +9,7 @@ key: va-dancing-mavka
 meta: VA Dansing Mavka
 keywords: VA Dansing Mavka
 
-bandcampId: 95715287
+bandcampAlbum: 95715287
 bandcamp: https://lookinglook.bandcamp.com/album/va-dancing-mavka
 ektoplazm: http://www.ektoplazm.com/free-music/dancing-mavka
 discogs: http://www.discogs.com/Various-Dancing-Mavka/release/2527055

@@ -9,7 +9,7 @@ key: spectrum-vision-lost-space-device
 meta: Spectrum Vision Lost Space Device
 keywords: Spectrum Vision Lost Space Device
 
-bandcampId: 2969979336
+bandcampAlbum: 2969979336
 bandcamp: https://sentimony.bandcamp.com/album/spectrum-vision-lost-space-device
 ektoplazm: http://www.ektoplazm.com/free-music/spectrum-vision-lost-space-device
 discogs: http://www.discogs.com/Spectrum-Vision-Lost-Space-Device/release/1547476

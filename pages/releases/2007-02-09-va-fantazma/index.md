@@ -9,7 +9,7 @@ key: va-fantazma
 meta: VA Fantazma
 keywords: VA Fantazma
 
-bandcampId: 3399361938
+bandcampAlbum: 3399361938
 bandcamp: https://sentimony.bandcamp.com/album/va-fantazma
 ektoplazm: http://www.ektoplazm.com/free-music/fantazma
 discogs: http://www.discogs.com/Various-Fantazma/release/952240

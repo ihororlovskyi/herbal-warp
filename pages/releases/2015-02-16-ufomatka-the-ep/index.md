@@ -9,7 +9,7 @@ key: ufomatka-the-e-p
 meta: Ufomatka The EP
 keywords: Ufomatka The EP
 
-bandcampId: 342915204
+bandcampAlbum: 342915204
 bandcamp: https://lookinglook.bandcamp.com/album/ufomatka-the-e-p
 ektoplazm: 
 discogs: http://www.discogs.com/Ufomatka-The-Ep/release/6663582

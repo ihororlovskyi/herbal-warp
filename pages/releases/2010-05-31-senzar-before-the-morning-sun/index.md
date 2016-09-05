@@ -9,7 +9,7 @@ key: senzar-before-the-morning-sun
 meta: Senzar ‎Before The Morning Sun
 keywords: Senzar ‎Before The Morning Sun
 
-bandcampId: 3896908655
+bandcampAlbum: 3896908655
 bandcamp: https://lookinglook.bandcamp.com/album/senzar-before-the-morning-sun
 ektoplazm: http://www.ektoplazm.com/free-music/senzar-before-the-morning-sun
 discogs: http://www.discogs.com/Senzar-Before-The-Morning-Sun/release/2299220

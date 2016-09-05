@@ -9,7 +9,7 @@ key: va-grower
 meta: VA Grower
 keywords: VA Grower
 
-bandcampId: 4231998669
+bandcampAlbum: 4231998669
 bandcamp: https://lookinglook.bandcamp.com/album/va-grower
 ektoplazm: http://www.ektoplazm.com/free-music/grower
 discogs: http://www.discogs.com/Various-Grower/release/2356268

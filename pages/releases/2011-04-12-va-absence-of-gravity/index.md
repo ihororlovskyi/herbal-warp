@@ -9,7 +9,7 @@ key: va-absence-of-gravity
 meta: VA Absence Of Gravity
 keywords: VA Absence Of Gravity
 
-bandcampId: 2969979336
+bandcampAlbum: 2969979336
 bandcamp: https://sentimony.bandcamp.com/album/va-absence-of-gravity
 ektoplazm: http://www.ektoplazm.com/free-music/absence-of-gravity
 discogs: http://www.discogs.com/Various-Absence-Of-Gravity/release/2820972

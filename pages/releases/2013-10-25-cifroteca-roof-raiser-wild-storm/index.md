@@ -9,7 +9,7 @@ key: cifroteca-roof-raiser-wild-storm
 meta: Cifroteca Roof Raiser Wild Storm
 keywords: Cifroteca Roof Raiser Wild Storm
 
-bandcampId: 721225799
+bandcampAlbum: 721225799
 bandcamp: https://aquadeep.bandcamp.com/album/cifroteca-roof-raiser-wild-storm
 ektoplazm: 
 discogs: http://www.discogs.com/Cifroteca-Roof-Raiser-Wild-Storm/release/5012131

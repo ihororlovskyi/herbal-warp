@@ -9,7 +9,7 @@ key: va-time-loop-beyond-borders
 meta: VA Time Loop Beyond Borders
 keywords: VA Time Loop Beyond Borders
 
-bandcampId: 2208878008
+bandcampAlbum: 2208878008
 bandcamp: https://sentimony.bandcamp.com/album/va-time-loop-beyond-borders
 ektoplazm: http://www.ektoplazm.com/free-music/time-loop-beyond-borders
 discogs: http://www.discogs.com/Various-Time-Loop-Beyond-Borders/release/2443978

@@ -9,7 +9,7 @@ key: unusual-cosmic-process-weightlessness
 meta: Unusual Cosmic Process ‎Weightlessness
 keywords: Unusual Cosmic Process ‎Weightlessness
 
-bandcampId: 987015194
+bandcampAlbum: 987015194
 bandcamp: https://lookinglook.bandcamp.com/album/unusual-cosmic-process-weightlessness
 ektoplazm: http://www.ektoplazm.com/free-music/unusual-cosmic-process-weightlessness
 discogs: http://www.discogs.com/Unusual-Cosmic-Process-Weightlessness/release/2517434

@@ -9,7 +9,7 @@ key: tentura-beyond-illusion
 meta: Tentura Beyond Illusion
 keywords: Tentura Beyond Illusion
 
-bandcampId: 144410096
+bandcampAlbum: 144410096
 bandcamp: https://sentimony.bandcamp.com/album/tentura-beyond-illusion
 ektoplazm: 
 discogs: http://www.discogs.com/Tentura-Beyond-Illusion/release/6775211

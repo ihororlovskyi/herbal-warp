@@ -9,7 +9,7 @@ key: irukanji-z-lisu
 meta: Irukanji Z Lisu
 keywords: Z Lisu
 
-bandcampId: 2924012921
+bandcampAlbum: 2924012921
 bandcamp: https://sentimony.bandcamp.com/album/irukanji-z-lisu
 ektoplazm: http://www.ektoplazm.com/free-music/irukanji-z-lisu
 discogs: http://www.discogs.com/Irukanji-Z-Lisu/release/1664941

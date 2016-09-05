@@ -9,7 +9,7 @@ key: psyfactor-retro-scientific
 meta: Psyfactor Retro Scientific
 keywords: Psyfactor Retro Scientific
 
-bandcampId: 625816327
+bandcampAlbum: 625816327
 bandcamp: https://sentimony.bandcamp.com/album/psyfactor-retro-scientific
 ektoplazm: 
 discogs: http://www.discogs.com/Psyfactor-Retro-Scientific/release/5399930

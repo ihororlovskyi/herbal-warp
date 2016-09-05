@@ -1,4 +1,6 @@
+@import '../../node_modules/coriolan-ui/tools/vars';
 @import '../../node_modules/coriolan-ui/mixins/clearfix';
+@import '../../node_modules/coriolan-ui/mixins/media';
 
 $sidebarWidth: 260px;
 $gridIndent: 20px;
@@ -13,13 +15,22 @@ $gridIndent: 20px;
         width: $sidebarWidth;
         padding: 0 $gridIndent;
         box-sizing: border-box;
+        display: none;
+
+        @include media(M) {
+            display: block;
+        }
     }
 
     &__content {
         float: left;
-        width: calc(100% - #{$sidebarWidth});
         padding: 0 20px;
         box-sizing: border-box;
+        width: 100%;
+
+        @include media(M) {
+            width: calc(100% - #{$sidebarWidth});
+        }
     }
 
     &__title {
@@ -34,5 +45,17 @@ $gridIndent: 20px;
         display: block;
         max-width: 333px;
         margin-bottom: 20px;
+    }
+
+    &__iframe-bandcamp {
+        border: 0;
+        width: 100%;
+        float: left;
+        // display: block;
+        height: 400px;
+        // height: 42px;
+        margin-bottom: 20px;
+        // display: none;
+        // visibility: hidden;
     }
 }

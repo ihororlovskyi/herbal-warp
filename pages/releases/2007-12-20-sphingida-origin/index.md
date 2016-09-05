@@ -9,7 +9,7 @@ key: sphingida-origin
 meta: Sphingida Origin
 keywords: Sphingida Origin
 
-bandcampId: 3680718383
+bandcampAlbum: 3680718383
 bandcamp: https://sentimony.bandcamp.com/album/sphingida-origin
 ektoplazm: http://www.ektoplazm.com/free-music/sphingida-origin
 discogs: http://www.discogs.com/Sphingida-Origin/release/1171746

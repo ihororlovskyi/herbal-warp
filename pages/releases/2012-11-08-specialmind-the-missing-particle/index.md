@@ -9,7 +9,7 @@ key: specialmind-the-missing-particle
 meta: Specialmind The Missing Particle
 keywords: Specialmind The Missing Particle
 
-bandcampId: 1673341211
+bandcampAlbum: 1673341211
 bandcamp: https://sentimony.bandcamp.com/album/specialmind-the-missing-particle
 ektoplazm: http://www.ektoplazm.com/free-music/specialmind-the-missing-particle
 discogs: http://www.discogs.com/Tentura-Aurora/release/4462165
