@@ -21,7 +21,7 @@ class ReleasePage extends React.Component {
                 <div className='release-page__content'>
                     <h1 className='release-page__title'>{ post.title }</h1>
                     <img className='release-page__cover' src={ prefixLink(`${ post.path }cover.jpg`) } alt={ post.title } />
-                    { !!post.bandcampAlbum ? <iframe className='release-page__iframe-bandcamp' src={`https://bandcamp.com/EmbeddedPlayer/album=${ post.bandcampAlbum }/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/`} seamless /> : '' }
+                    { !!post.bandcampAlbum ? <iframe className='release-page__iframe-bandcamp' src={`https://bandcamp.com/EmbeddedPlayer/album=${ post.bandcampAlbum }/size=large/bgcol=222222/linkcol=4ec5ec/artwork=small/transparent=true/`} seamless /> : '' }
                     <div dangerouslySetInnerHTML={ {    __html: post.body} } />
                 </div>
             </div>

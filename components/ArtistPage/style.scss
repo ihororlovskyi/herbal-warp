@@ -1,5 +1,7 @@
+@import '../../node_modules/coriolan-ui/tools/vars';
 @import '../../node_modules/coriolan-ui/mixins/clearfix';
 @import '../../node_modules/coriolan-ui/mixins/ratio';
+@import '../../node_modules/coriolan-ui/mixins/media';
 
 $sidebarWidth: 260px;
 $gridIndent: 20px;
@@ -14,13 +16,22 @@ $gridIndent: 20px;
         width: $sidebarWidth;
         padding: 0 $gridIndent;
         box-sizing: border-box;
+        display: none;
+
+        @include media(M) {
+            display: block;
+        }
     }
 
     &__content {
         float: left;
-        width: calc(100% - #{$sidebarWidth});
         padding: 0 20px;
         box-sizing: border-box;
+        width: 100%;
+
+        @include media(M) {
+            width: calc(100% - #{$sidebarWidth});
+        }
     }
 
     &__title {

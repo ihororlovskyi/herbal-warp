@@ -21,7 +21,7 @@ class ReleasePage extends React.Component {
                 <div className='artist-page__content'>
 
                     <div className='artist-page__thumbnail'>
-                        <img className='artist-page__cover' src={ prefixLink(`${ post.path }cover.jpg`) } alt={ post.title } />
+                        <img className='artist-page__cover' src={ prefixLink(`${ post.path }${ post.key }.jpg`) } alt={ post.title } />
                     </div>
 
                     <h1 className='artist-page__title'>{ post.title }</h1>
