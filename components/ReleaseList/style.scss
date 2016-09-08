@@ -1,11 +1,29 @@
 @import '../../node_modules/coriolan-ui/mixins/clearfix';
 
+.flex-container {
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-item {
+    background: tomato;
+    padding: 0px;
+    width: 25%;
+    color: white;
+    font-size: 3em;
+}
+
 .release-list {
-    padding: 0;
-    margin: 0 auto;
-    @include clearfix;
-    list-style: none;
-    box-sizing: border-box;
+    // padding: 0;
+    // margin: 0 auto;
+    // @include clearfix;
+    // list-style: none;
+    // box-sizing: border-box;
+    // text-align: center;
+
+    display: flex;
+    flex-flow: row wrap;
     text-align: center;
 
     .release-page & {
@@ -15,16 +33,19 @@
     &__link {
         background: rgba(#fff,.0);
         color: #8ff;
-        float: left;
-        // width: 100%;
-        width: 25%;
-        transition: background .25s ease;
+        // float: left;
+        // width: 25%;
+        // transition: background .25s ease;
         text-decoration: none;
         position: relative;
-        cursor: pointer;
-        font-size: 10px;
+        // cursor: pointer;
+        font-size: 12px;
         padding: 6px 8px;
-        box-sizing: border-box;
+        // box-sizing: border-box;
+
+        padding: 0px;
+        width: 25%;
+        color: white;
 
         .release-page & {
             width: 100%;
