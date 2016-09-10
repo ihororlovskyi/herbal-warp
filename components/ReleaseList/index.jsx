@@ -21,7 +21,7 @@ class ReleaseList extends React.Component {
                 pageLinks.push(
                     <Link to={ prefixLink(page.path) } className='release-list__link' key={ key } activeClassName='is-selected' >
                         <img className='release-list__cover' src={ prefixLink(`${ page.path }cover.jpg`) } />
-                        { title }
+                        <div className='release-list__title'>{ title }</div>
                         <Ink />
                     </Link>
                 )

@@ -19,23 +19,21 @@ class ArtistList extends React.Component {
                 const title = access(page, 'data.title') || page.path
 
                 pageLinks.push(
-                    <li key={ key }>
-                        <Link to={ prefixLink(page.path) } className='artist-list__link' activeClassName='is-selected' >
-                            <div className='artist-list__thumbnail'>
-                                <img className='artist-list__cover' src={ prefixLink(`${ page.path }${ key }.jpg`) } />
-                            </div>
-                            <div className='artist-list__title'>{ title }</div>
-                            <Ink />
-                        </Link>
-                    </li>
+                    <Link key={ key } to={ prefixLink(page.path) } className='artist-list__link' activeClassName='is-selected' >
+                        <div className='artist-list__thumbnail'>
+                            <img className='artist-list__cover' src={ prefixLink(`${ page.path }${ key }.jpg`) } />
+                        </div>
+                        <div className='artist-list__title'>{ title }</div>
+                        <Ink />
+                    </Link>
                 )
             }
         })
 
         return (
-            <ul className='artist-list'>
+            <div className='artist-list'>
                 { pageLinks }
-            </ul>
+            </div>
         );
     }
 }

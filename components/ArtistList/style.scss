@@ -2,11 +2,15 @@
 @import '../../node_modules/coriolan-ui/mixins/ratio';
 
 .artist-list {
-    padding: 0;
-    margin: 0 auto;
-    @include clearfix;
-    list-style: none;
-    box-sizing: border-box;
+    // padding: 0;
+    // margin: 0 auto;
+    // @include clearfix;
+    // list-style: none;
+    // box-sizing: border-box;
+    // text-align: center;
+
+    display: flex;
+    flex-flow: row wrap;
     text-align: center;
 
     .artist-page & {
