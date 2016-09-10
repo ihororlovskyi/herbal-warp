@@ -1,0 +1,24 @@
+---
+id: 13
+title: Crystal Vibe
+layout: ArtistPage
+category: artists
+path: '/artists/crystal-vibe/'
+key: crystal-vibe
+
+meta: Crystal Vibe
+keywords: Crystal Vibe
+
+location: Ukraine
+website: 
+bandcamp: 
+bandcampLabelTrack: 1901519183
+soundcloud: https://soundcloud.com/crystal-vibe
+soundcloudTrack: 35898228
+facebook: 
+mixcloud: 
+youtube: 
+discogs: https://www.discogs.com/artist/4210858-Crystal-Vibe
+---
+
+Crystal Vibe info coming soon.
