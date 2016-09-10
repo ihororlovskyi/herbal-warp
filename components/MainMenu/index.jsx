@@ -11,6 +11,8 @@ import iconBandcamp from '../../static/img/svg-icons/bandcamp.svg'
 import iconFacebook from '../../static/img/svg-icons/facebook.svg'
 import iconSoundcloud from '../../static/img/svg-icons/soundcloud.svg'
 import iconGithub from '../../static/img/svg-icons/github.svg'
+import iconEvevt from '../../static/img/svg-icons/event.svg'
+import iconDiscogs from '../../static/img/svg-icons/discogs.svg'
 
 class MainMenu extends React.Component {
     render() {
@@ -29,7 +31,7 @@ class MainMenu extends React.Component {
                     </Link>
 
                     <Link to={ prefixLink('/releases/')} className={`mainmenu__link ${ location.pathname.indexOf(prefixLink('/releases/')) == 0 ? 'is-selected' : '' }`}>
-                        <img className='mainmenu__link-svg' src={ prefixLink(iconDiscography) }/>
+                        <img className='mainmenu__link-svg' src={ prefixLink(iconDiscogs) }/>
                         <span className='mainmenu__link-name'>Releases</span>
                         <Ink />
                     </Link> 
@@ -41,7 +43,7 @@ class MainMenu extends React.Component {
                     </Link> 
 
                     <Link to={ prefixLink('/events/')} className={`mainmenu__link ${ location.pathname.indexOf(prefixLink('/events/')) == 0 ? 'is-selected' : '' }`}>
-                        <img className='mainmenu__link-svg' src={ prefixLink(iconDiscography) }/>
+                        <img className='mainmenu__link-svg' src={ prefixLink(iconEvevt) }/>
                         <span className='mainmenu__link-name'>Events</span>
                         <Ink />
                     </Link> 
