@@ -15,7 +15,7 @@ bandcamp:
 bandcampLabelTrack: 1901519183
 soundcloud: https://soundcloud.com/crystal-vibe
 soundcloudTrack: 35898228
-facebook: 
+facebook: https://www.facebook.com/crystalvibe440
 mixcloud: 
 youtube: 
 discogs: https://www.discogs.com/artist/4210858-Crystal-Vibe
