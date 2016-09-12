@@ -59,14 +59,13 @@
         width: 100%;
         height: auto;
         display: block;
-        margin: 0 auto 4px;
+        margin: 0 auto;
         // transition: width .2s ease;
 
         .release-page & {
             width: 24px;
             float: left;
             margin-right: 10px;
-            margin-bottom: 0;
         }
     }
 
