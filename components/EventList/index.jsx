@@ -22,7 +22,7 @@ class EventList extends React.Component {
                     <li key={ key }>
                         <Link to={ prefixLink(page.path) } className='event-list__link' activeClassName='is-selected' >
                             <img className='event-list__cover' src={ prefixLink(`${ page.path }cover.jpg`) } />
-                            { title }
+                            <div className='event-list__title'>{ title }</div>
                             <Ink />
                         </Link>
                     </li>

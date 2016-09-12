@@ -1,5 +1,5 @@
 ---
-id: 11
+priority: d
 title: Crystal Vibe
 layout: ArtistPage
 category: artists
@@ -9,7 +9,7 @@ key: crystal-vibe
 meta: Crystal Vibe
 keywords: Crystal Vibe
 
-location: Ukraine
+location: Kyiv, Ukraine
 website: 
 bandcamp: 
 bandcampLabelTrack: 1901519183

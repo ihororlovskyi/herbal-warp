@@ -1,5 +1,5 @@
 ---
-id: 5
+priority: b
 title: Overdream
 layout: ArtistPage
 category: artists
@@ -9,7 +9,7 @@ key: overdream
 meta: Overdream
 keywords: Overdream
 
-location: Ukraine
+location: Kyiv, Ukraine
 website: http://www.overdreamstudio.com
 bandcamp: 
 bandcampLabelTrack: 3390975789

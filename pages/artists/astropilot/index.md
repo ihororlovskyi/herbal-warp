@@ -1,5 +1,5 @@
 ---
-id: 4
+priority: b
 title: AstroPilot
 layout: ArtistPage
 category: artists
@@ -9,7 +9,7 @@ key: astropilot
 meta: AstroPilot
 keywords: Chronos
 
-location: Ukraine
+location: Kyiv, Ukraine
 website: 
 bandcamp: https://astropilotmusic.bandcamp.com
 bandcampLabelTrack: 2462059795

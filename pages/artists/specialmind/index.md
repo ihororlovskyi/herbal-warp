@@ -1,5 +1,5 @@
 ---
-id: 9
+priority: c
 title: Specialmind
 layout: ArtistPage
 category: artists
@@ -9,7 +9,7 @@ key: specialmind
 meta: Specialmind
 keywords: Specialmind
 
-location: Ukraine
+location: Kyiv, Ukraine
 website: 
 bandcamp: 
 bandcampLabelTrack: 1901519183

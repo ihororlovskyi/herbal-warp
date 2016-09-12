@@ -1,5 +1,5 @@
 ---
-id: 7
+priority: a
 title: Tentura
 layout: ArtistPage
 category: artists
@@ -9,7 +9,7 @@ key: tentura
 meta: Tentura
 keywords: Tentura
 
-location: Ukraine
+location: Kyiv, Ukraine
 website: 
 bandcamp: 
 bandcampLabelTrack: 1345534488

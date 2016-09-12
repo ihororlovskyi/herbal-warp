@@ -31,8 +31,10 @@
         // width: 100%;
         width: 25%;
         // background: #222;
+        padding: 0 10px 20px;
 
         .artist-page & {
+            padding: 0;
             width: 100%;
         }
 
@@ -101,17 +103,17 @@
     }
 
     &__title {
-        position: absolute;
-        width: 100%;
-        left: 0;
-        bottom: 0;
+        // position: absolute;
+        // width: 100%;
+        // left: 0;
+        // bottom: 0;
         padding: 10px 0;
         font-size: 14px;
         background: rgba(#222,.5);
         // transform: translate3d(0,-100%,0);
 
         .artist-page & {
-            position: relative;
+            // position: relative;
             padding: 6px 0;
             font-size: 12px;
             background: rgba(#222,.0);

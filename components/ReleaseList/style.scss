@@ -14,12 +14,16 @@
         color: #8ff;
         position: relative;
         font-size: 12px;
-        width: 25%;
+        width: 33.33333%;
+        // width: 25%;
         color: white;
         text-decoration: none;
+        padding: 0 10px 20px;
+        box-sizing: border-box;
 
         .release-page & {
             width: 100%;
+            padding: 0;
         }
 
         &:after,
@@ -70,17 +74,17 @@
     }
 
     &__title {
-        position: absolute;
-        width: 100%;
-        left: 0;
-        bottom: 0;
+        // position: absolute;
+        // width: 100%;
+        // left: 0;
+        // bottom: 0;
         padding: 10px 0;
         font-size: 14px;
         background: rgba(#222,.5);
         // transform: translate3d(0,-100%,0);
 
         .release-page & {
-            position: relative;
+            // position: relative;
             padding: 6px 0;
             font-size: 12px;
             background: rgba(#222,.0);

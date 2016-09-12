@@ -1,5 +1,5 @@
 ---
-id: 12
+priority: c
 title: Sygnals
 layout: ArtistPage
 category: artists

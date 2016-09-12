@@ -1,5 +1,5 @@
 ---
-id: 3
+priority: c
 title: Chronos
 layout: ArtistPage
 category: artists
@@ -9,7 +9,7 @@ key: chronos
 meta: Chronos
 keywords: Chronos
 
-location: Russia
+location: Moscow, Russia
 website: http://chronos-music.ru
 bandcamp: 
 bandcampLabelTrack: 4060421854

@@ -1,5 +1,5 @@
 ---
-id: 10
+priority: c
 title: ShizoLizer Gin
 layout: ArtistPage
 category: artists
@@ -9,7 +9,7 @@ key: shizolizer-gin
 meta: ShizoLizer Gin
 keywords: ShizoLizer Gin
 
-location: Ukraine
+location: Kyiv, Ukraine
 website: 
 bandcamp: 
 bandcampLabelTrack: 1730833443

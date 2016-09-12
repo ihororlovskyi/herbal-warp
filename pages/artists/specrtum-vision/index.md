@@ -1,5 +1,5 @@
 ---
-id: 8
+priority: b
 title: Specrtum Vision
 layout: ArtistPage
 category: artists
@@ -9,7 +9,7 @@ key: specrtum-vision
 meta: Specrtum Vision
 keywords: Specrtum Vision
 
-location: Russia
+location: Moscow, Russia
 website: 
 bandcamp: 
 bandcampLabelTrack: 1521193692

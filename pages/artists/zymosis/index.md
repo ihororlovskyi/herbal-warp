@@ -1,5 +1,5 @@
 ---
-id: 2
+priority: b
 title: Zymosis
 layout: ArtistPage
 category: artists
@@ -9,7 +9,7 @@ key: zymosis
 meta: Zymosis
 keywords: Zymosis
 
-location: Ukraine
+location: Kyiv, Ukraine
 website: http://zymosis.info/
 bandcamp: https://zymosis.bandcamp.com/
 bandcampLabelTrack: 2781106940

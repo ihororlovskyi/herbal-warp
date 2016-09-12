@@ -11,7 +11,7 @@ class ArtistList extends React.Component {
     render() {
         const pageLinks = []
 
-        const sortedPages = sortBy(this.props.route.pages, (page) => access(page, 'data.id'))
+        const sortedPages = sortBy(this.props.route.pages, (page) => access(page, 'data.priority'))
         sortedPages.forEach((page) => {
             if (access(page, 'file.ext') === 'md' && access(page, 'data.category') === 'artists') {
                 const id = access(page, 'data.id') || page.path
@@ -29,6 +29,18 @@ class ArtistList extends React.Component {
                 )
             }
         })
+
+        // function shuffle(a) {
+        //     var j, x, i;
+        //     for (i = a.length; i; i--) {
+        //         j = Math.floor(Math.random() * i);
+        //         x = a[i - 1];
+        //         a[i - 1] = a[j];
+        //         a[j] = x;
+        //     }
+        // }
+
+        // shuffle(pageLinks);
 
         return (
             <div className='artist-list'>

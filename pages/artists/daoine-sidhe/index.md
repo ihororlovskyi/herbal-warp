@@ -1,5 +1,5 @@
 ---
-id: 6
+priority: c
 title: Daoine Sidhe
 layout: ArtistPage
 category: artists
