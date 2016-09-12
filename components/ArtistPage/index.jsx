@@ -28,7 +28,6 @@ class ReleasePage extends React.Component {
 
                     <div className='artist-page__location'>{ post.location }</div>
 
-                    { !!post.soundcloudTrack ? '' : <iframe className='artist-page__iframe-soundcloud' scrolling='no' src={`https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/${ post.soundcloudTrack }&amp;color=00aabb&amp;auto_play=true&amp;show_artwork=true&amp;download=true&amp;sharing=false&amp;hide_related=true&amp;show_comments=true&amp;show_user=false&amp;show_reposts=false&amp`} /> }
                     { !!post.bandcampLabelTrack ? <iframe className='artist-page__iframe-bandcamp' src={`https://bandcamp.com/EmbeddedPlayer/size=large/bgcol=222222/linkcol=4ec5ec/tracklist=false/artwork=small/track=${ post.bandcampLabelTrack }/transparent=true/`} seamless /> : '' }
 
                     <ul className='artist-page__soc-ul'>

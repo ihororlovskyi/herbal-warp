@@ -14,7 +14,6 @@ website:
 bandcamp: 
 bandcampLabelTrack: 1521193692
 soundcloud: https://soundcloud.com/spectrum-vision
-soundcloudTrack: 55774658
 facebook: https://www.facebook.com/spectrum.vision
 mixcloud: https://www.mixcloud.com/spectrumvision
 youtube: 

@@ -14,7 +14,6 @@ website:
 bandcamp: 
 bandcampLabelTrack: 1730833443
 soundcloud: https://soundcloud.com/molo-dimolo
-soundcloudTrack: 196313124
 facebook: https://www.facebook.com/shizolizergin
 mixcloud: 
 youtube: 

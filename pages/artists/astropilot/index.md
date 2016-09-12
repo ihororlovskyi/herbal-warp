@@ -14,7 +14,6 @@ website:
 bandcamp: https://astropilotmusic.bandcamp.com
 bandcampLabelTrack: 2462059795
 soundcloud: https://soundcloud.com/astropilot
-soundcloudTrack: 221131342
 facebook: https://www.facebook.com/astropilot
 mixcloud: http://www.mixcloud.com/astropilot
 youtube: https://www.youtube.com/user/dimastropilot

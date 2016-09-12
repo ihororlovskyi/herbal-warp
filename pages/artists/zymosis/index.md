@@ -14,7 +14,6 @@ website: http://zymosis.info/
 bandcamp: https://zymosis.bandcamp.com/
 bandcampLabelTrack: 2781106940
 soundcloud: https://soundcloud.com/zymosis
-soundcloudTrack: 214282701
 facebook: https://www.facebook.com/Zymosis.project
 mixcloud: https://www.mixcloud.com/zymosis
 youtube: https://www.youtube.com/user/dimitroz

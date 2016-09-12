@@ -14,7 +14,6 @@ website:
 bandcamp: 
 bandcampLabelTrack: 1345534488
 soundcloud: http://soundcloud.com/tentura
-soundcloudTrack: 160432337
 facebook: https://www.facebook.com/Tentura.Music
 mixcloud: https://www.mixcloud.com/adertentura
 youtube: 

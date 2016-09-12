@@ -14,7 +14,6 @@ website:
 bandcamp: 
 bandcampLabelTrack: 1901519183
 soundcloud: https://soundcloud.com/specialmind
-soundcloudTrack: 35898228
 facebook: https://www.facebook.com/Specialmind-509257309102039
 mixcloud: 
 youtube: 

@@ -14,7 +14,6 @@ website: http://chronos-music.ru
 bandcamp: 
 bandcampLabelTrack: 4060421854
 soundcloud: https://soundcloud.com/chronosproject
-soundcloudTrack: 258442628
 facebook: https://www.facebook.com/Chronos-176464275733714
 mixcloud: https://www.mixcloud.com/chronosmusic
 youtube: https://www.youtube.com/user/chronosproject

@@ -9,12 +9,11 @@ key: daoine-sidhe
 meta: Daoine Sidhe
 keywords: Daoine Sidhe
 
-location: Greece
+location: Athens, Greece
 website: 
 bandcamp: https://daoinesidhe.bandcamp.com
 bandcampLabelTrack: 3426560238
 soundcloud: https://soundcloud.com/daoinesidhe
-soundcloudTrack: 10299650
 facebook: https://www.facebook.com/DaoineSidhe.Dendrobates
 mixcloud: https://www.mixcloud.com/DaoineSidhe
 youtube: 
