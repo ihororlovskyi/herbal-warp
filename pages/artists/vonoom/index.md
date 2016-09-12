@@ -12,7 +12,7 @@ keywords: Vonoom
 location: 
 website: 
 bandcamp: 
-bandcampLabelTrack: 
+bandcampLabelTrack: 2005254006
 soundcloud: 
 facebook: 
 mixcloud: 
@@ -21,4 +21,3 @@ discogs:
 ---
 
 Vonoom info coming soon.
-

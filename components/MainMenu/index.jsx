@@ -9,7 +9,6 @@ import logoIrkNew from '../../static/img/svg-icons/deer2.svg'
 import iconDiscography from '../../static/img/svg-icons/kokopelli.svg'
 import iconBandcamp from '../../static/img/svg-icons/bandcamp.svg'
 import iconFacebook from '../../static/img/svg-icons/facebook.svg'
-import iconSoundcloud from '../../static/img/svg-icons/soundcloud.svg'
 import iconGithub from '../../static/img/svg-icons/github.svg'
 import iconEvevt from '../../static/img/svg-icons/event.svg'
 import iconDiscogs from '../../static/img/svg-icons/discogs.svg'
@@ -55,11 +54,6 @@ class MainMenu extends React.Component {
                         <a href={ config.siteBandcampUrl } className='mainmenu__link' target='_blank'>
                             <img className='mainmenu__link-svg' src={ prefixLink(iconBandcamp) }/>
                             <span className='mainmenu__link-name'>bandcamp</span>
-                        </a>
-
-                        <a href={ config.siteSoundcloudUrl } className='mainmenu__link' target='_blank'>
-                            <img className='mainmenu__link-svg' src={ prefixLink(iconSoundcloud) }/>
-                            <span className='mainmenu__link-name'>soundcloud</span>
                         </a>
 
                         <a href={ config.siteFacebookUrl } className='mainmenu__link' target='_blank'>

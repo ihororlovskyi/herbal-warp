@@ -1,18 +1,18 @@
 ---
 priority: c
-title: flooting-grooves
+title: Flooting Grooves
 layout: ArtistPage
 category: artists
 path: '/artists/flooting-grooves/'
 key: flooting-grooves
 
-meta: flooting-grooves
-keywords: flooting-grooves
+meta: Flooting Grooves
+keywords: Flooting Grooves
 
 location: 
 website: 
 bandcamp: 
-bandcampLabelTrack: 
+bandcampLabelTrack: 3983326276
 soundcloud: 
 facebook: 
 mixcloud: 
@@ -20,5 +20,4 @@ youtube:
 discogs: 
 ---
 
-flooting-grooves info coming soon.
-
+Flooting Grooves info coming soon.

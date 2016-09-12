@@ -9,7 +9,7 @@ key: va-absence-of-gravity
 meta: VA Absence Of Gravity
 keywords: VA Absence Of Gravity
 
-bandcampAlbum: 2969979336
+bandcampAlbum: 615519130
 bandcamp: https://sentimony.bandcamp.com/album/va-absence-of-gravity
 ektoplazm: http://www.ektoplazm.com/free-music/absence-of-gravity
 discogs: http://www.discogs.com/Various-Absence-Of-Gravity/release/2820972
@@ -28,4 +28,3 @@ Tracklist:
 09. Psyfactor - Nine [120bpm]
 10. NeiRula - Approaching To Pulsar [113bpm]
 11. Unstable Elements - Once Upon A Time [70bpm]
-

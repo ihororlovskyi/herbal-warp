@@ -1,13 +1,13 @@
 ---
 priority: c
-title: ufomatka
+title: Ufomatka
 layout: ArtistPage
 category: artists
 path: '/artists/ufomatka/'
 key: ufomatka
 
-meta: ufomatka
-keywords: ufomatka
+meta: Ufomatka
+keywords: Ufomatka
 
 location: 
 website: 
@@ -20,5 +20,5 @@ youtube:
 discogs: 
 ---
 
-ufomatka info coming soon.
+Ufomatka info coming soon.
 

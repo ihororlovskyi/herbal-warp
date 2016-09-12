@@ -1,18 +1,18 @@
 ---
 priority: d
-title: neirula
+title: Neirula
 layout: ArtistPage
 category: artists
 path: '/artists/neirula/'
 key: neirula
 
-meta: neirula
-keywords: neirula
+meta: Neirula
+keywords: Neirula
 
-location: 
+location: Kyiv, Ukraine
 website: 
 bandcamp: 
-bandcampLabelTrack: 
+bandcampLabelTrack: 2561386836
 soundcloud: 
 facebook: 
 mixcloud: 
@@ -20,5 +20,4 @@ youtube:
 discogs: 
 ---
 
-neirula info coming soon.
-
+Neirula info coming soon.

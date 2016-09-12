@@ -12,7 +12,7 @@ keywords: Chronos
 location: Moscow, Russia
 website: http://chronos-music.ru
 bandcamp: 
-bandcampLabelTrack: 4060421854
+bandcampLabelTrack: 3142258927
 soundcloud: https://soundcloud.com/chronosproject
 facebook: https://www.facebook.com/Chronos-176464275733714
 mixcloud: https://www.mixcloud.com/chronosmusic

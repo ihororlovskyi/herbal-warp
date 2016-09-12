@@ -1,13 +1,13 @@
 ---
 priority: c
-title: roof-raiser
+title: Roof Raiser
 layout: ArtistPage
 category: artists
 path: '/artists/roof-raiser/'
 key: roof-raiser
 
-meta: roof-raiser
-keywords: roof-raiser
+meta: Roof Raiser
+keywords: Roof Raiser
 
 location: 
 website: 
@@ -20,5 +20,5 @@ youtube:
 discogs: 
 ---
 
-roof-raiser info coming soon.
+Roof Raiser info coming soon.
 

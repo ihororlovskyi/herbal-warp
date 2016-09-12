@@ -1,18 +1,18 @@
 ---
 priority: c
-title: mindex
+title: Mindex
 layout: ArtistPage
 category: artists
 path: '/artists/mindex/'
 key: mindex
 
-meta: mindex
-keywords: mindex
+meta: Mindex
+keywords: Mindex
 
 location: Moscow, Russia
 website: 
 bandcamp: 
-bandcampLabelTrack: 
+bandcampLabelTrack: 361096149
 soundcloud: 
 facebook: 
 mixcloud: 
@@ -20,5 +20,4 @@ youtube:
 discogs: 
 ---
 
-mindex info coming soon.
-
+Mindex info coming soon.

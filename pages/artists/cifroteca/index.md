@@ -1,13 +1,13 @@
 ---
 priority: c
-title: cifroteca
+title: Cifroteca
 layout: ArtistPage
 category: artists
 path: '/artists/cifroteca/'
 key: cifroteca
 
-meta: cifroteca
-keywords: cifroteca
+meta: Cifroteca
+keywords: Cifroteca
 
 location: 
 website: 
@@ -20,5 +20,5 @@ youtube:
 discogs: 
 ---
 
-cifroteca info coming soon.
+Cifroteca info coming soon.
 

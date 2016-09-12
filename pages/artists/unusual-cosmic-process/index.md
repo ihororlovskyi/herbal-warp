@@ -1,18 +1,18 @@
 ---
 priority: c
-title: unusual-cosmic-process
+title: Unusual Cosmic Process
 layout: ArtistPage
 category: artists
 path: '/artists/unusual-cosmic-process/'
 key: unusual-cosmic-process
 
-meta: unusual-cosmic-process
-keywords: unusual-cosmic-process
+meta: Unusual Cosmic Process, UCP
+keywords: Unusual Cosmic Process, UCP
 
 location: 
 website: 
 bandcamp: 
-bandcampLabelTrack: 
+bandcampLabelTrack: 3412080397
 soundcloud: 
 facebook: 
 mixcloud: 
@@ -20,5 +20,4 @@ youtube:
 discogs: 
 ---
 
-unusual-cosmic-process info coming soon.
-
+Unusual Cosmic Process info coming soon.

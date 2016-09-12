@@ -11,7 +11,7 @@ class ArtistList extends React.Component {
     render() {
         const pageLinks = []
 
-        const sortedPages = sortBy(this.props.route.pages, (page) => access(page, 'data.priority'))
+        const sortedPages = sortBy(this.props.route.pages, (page) => access(page, 'data.title'))
         sortedPages.forEach((page) => {
             if (access(page, 'file.ext') === 'md' && access(page, 'data.category') === 'artists') {
                 const id = access(page, 'data.id') || page.path

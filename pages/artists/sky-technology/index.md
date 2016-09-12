@@ -1,13 +1,13 @@
 ---
 priority: c
-title: sky-technology
+title: Sky Technology
 layout: ArtistPage
 category: artists
 path: '/artists/sky-technology/'
 key: sky-technology
 
-meta: sky-technology
-keywords: sky-technology
+meta: Sky Technology
+keywords: Sky Technology
 
 location: 
 website: 
@@ -20,5 +20,5 @@ youtube:
 discogs: 
 ---
 
-sky-technology info coming soon.
+Sky Technology info coming soon.
 

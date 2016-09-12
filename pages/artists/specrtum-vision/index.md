@@ -12,7 +12,7 @@ keywords: Specrtum Vision
 location: Moscow, Russia
 website: 
 bandcamp: 
-bandcampLabelTrack: 1521193692
+bandcampLabelTrack: 3838173944
 soundcloud: https://soundcloud.com/spectrum-vision
 facebook: https://www.facebook.com/spectrum.vision
 mixcloud: https://www.mixcloud.com/spectrumvision

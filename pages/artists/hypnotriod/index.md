@@ -1,13 +1,13 @@
 ---
 priority: c
-title: hypnotriod
+title: Hypnotriod
 layout: ArtistPage
 category: artists
 path: '/artists/hypnotriod/'
 key: hypnotriod
 
-meta: hypnotriod
-keywords: hypnotriod
+meta: Hypnotriod
+keywords: Hypnotriod
 
 location: 
 website: 
@@ -20,5 +20,5 @@ youtube:
 discogs: 
 ---
 
-hypnotriod info coming soon.
+Hypnotriod info coming soon.
 

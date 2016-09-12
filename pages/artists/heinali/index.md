@@ -1,13 +1,13 @@
 ---
 priority: d
-title: heinali
+title: Heinali
 layout: ArtistPage
 category: artists
 path: '/artists/heinali/'
 key: heinali
 
-meta: heinali
-keywords: heinali
+meta: Heinali
+keywords: Heinali
 
 location: 
 website: 
@@ -20,5 +20,5 @@ youtube:
 discogs: 
 ---
 
-heinali info coming soon.
+Heinali info coming soon.
 

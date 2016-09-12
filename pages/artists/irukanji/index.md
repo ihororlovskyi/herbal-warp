@@ -12,7 +12,7 @@ keywords: Irukanji
 location: Kyiv, Ukraine
 website: http://irukanji-music.com
 bandcamp: https://irukanji.bandcamp.com
-bandcampLabelTrack: 1491637281
+bandcampLabelTrack: 475968435
 soundcloud: https://soundcloud.com/irukanji-music
 facebook: https://www.facebook.com/irukanji.music
 mixcloud: https://www.mixcloud.com/irukanji-music

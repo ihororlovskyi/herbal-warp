@@ -12,7 +12,7 @@ keywords: Psyfactor
 location: Moscow, Russia
 website: 
 bandcamp: 
-bandcampLabelTrack: 
+bandcampLabelTrack: 245048724
 soundcloud: 
 facebook: 
 mixcloud: 
@@ -21,4 +21,3 @@ discogs:
 ---
 
 Psyfactor info coming soon.
-

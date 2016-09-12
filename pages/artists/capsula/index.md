@@ -1,13 +1,13 @@
 ---
 priority: d
-title: capsula
+title: Capsula
 layout: ArtistPage
 category: artists
 path: '/artists/capsula/'
 key: capsula
 
-meta: capsula
-keywords: capsula
+meta: Capsula
+keywords: Capsula
 
 location: 
 website: 
@@ -20,5 +20,5 @@ youtube:
 discogs: 
 ---
 
-capsula info coming soon.
+Capsula info coming soon.
 
