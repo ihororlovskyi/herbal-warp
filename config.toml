@@ -10,8 +10,4 @@ siteGoogleplusUrl = ''
 siteGithubUrl = 'https://github.com/sentimony'
 siteYoutubeUrl = 'https://www.youtube.com/c/SentimonyRecords'
 
-
-poweredUrl = 'http://ihororlovskyi.com'
-poweredTitle = 'Ihor Orlovskyi'
-
 linkPrefix = "/sentimony-react"

@@ -15,10 +15,24 @@ class Footer extends React.Component {
             <div className='footer'>
                 <div className='footer__copyright'>2006 - 2016 © { config.siteTitle }</div>
                 <div className='footer__powered'>
-                    Web development by
-                    <a href={ config.poweredUrl } className='footer__powered-link' target='_blank'>
+                    powered by
+                    <a href='http://rooooster.com' className='footer__powered-link' target='_blank'>
                         <img className='footer__powered-svg' src={ prefixLink(iconEagle) }/>
-                        <span className='footer__powered-fx'>{ config.poweredTitle }</span>
+                        <span className='footer__powered-fx'>Rooster Studio</span>
+                    </a>
+                </div>
+                <div className='footer__powered'>
+                    web design by
+                    <a href='http://antonpivniuk.github.io' className='footer__powered-link' target='_blank'>
+                        <img className='footer__powered-svg' src={ prefixLink(iconEagle) }/>
+                        <span className='footer__powered-fx'>Anton Pivniuk</span>
+                    </a>
+                </div>
+                <div className='footer__powered'>
+                    web development by
+                    <a href='http://ihororlovskyi.com' className='footer__powered-link' target='_blank'>
+                        <img className='footer__powered-svg' src={ prefixLink(iconEagle) }/>
+                        <span className='footer__powered-fx'>Ihor Orlovskyi</span>
                     </a>
                 </div>
             </div>

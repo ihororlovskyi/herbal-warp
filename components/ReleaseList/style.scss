@@ -14,15 +14,15 @@
         color: #8ff;
         position: relative;
         font-size: 12px;
-        width: 33.33333%;
-        // width: 25%;
+        flex-basis: 33.33333%;
+        // flex-basis: 25%;
         color: white;
         text-decoration: none;
         padding: 0 10px 20px;
         box-sizing: border-box;
 
         .release-page & {
-            width: 100%;
+            flex-basis: 100%;
             padding: 0;
         }
 
