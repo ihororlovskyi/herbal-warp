@@ -5,7 +5,7 @@ import { config } from 'config'
 import Ink from 'react-ink'
 
 import './style.scss'
-import logoSentimonyRecordsLogo from '../../static/img/svg-icons/sentimony-records-logo.svg'
+import iconSentimonyRecordsLogo from '../../static/img/svg-icons/sentimony-records-logo.svg'
 import iconDiscography from '../../static/img/svg-icons/kokopelli.svg'
 import iconBandcamp from '../../static/img/svg-icons/bandcamp.svg'
 import iconFacebook from '../../static/img/svg-icons/facebook.svg'
@@ -24,8 +24,9 @@ class MainMenu extends React.Component {
                 <div className='mainmenu__container'>
 
                     <Link to={ prefixLink('/')} className='mainmenu__link mainmenu__link--logo' activeClassName='is-selected' onlyActiveOnIndex>
-                        <img className='mainmenu__link-svg' src={ prefixLink(logoSentimonyRecordsLogo) }/>
+                        <img className='mainmenu__link-svg' src={ prefixLink(iconSentimonyRecordsLogo) }/>
                         <span className='mainmenu__link-name'>{ config.siteTitle }</span>
+                        <span className='mainmenu__link-name'>{ config.siteDescr }</span>
                         <Ink />
                     </Link>
 
