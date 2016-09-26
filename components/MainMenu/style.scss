@@ -5,14 +5,16 @@
 $mainmenu__link-selected--height: 4px;
 
 .mainmenu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+    // position: fixed;
+    position: relative;
+    // top: 0;
+    // left: 0;
+    // width: 100%;
     z-index: 1000;
-    background: rgba(#222,1);
+    // background: rgba(#222,1);
     padding: 0 10px;
     box-sizing: border-box;
+    border-bottom: 1px solid rgba(#fff,.3);
 
     &__container {
         max-width: 999px;
@@ -21,12 +23,13 @@ $mainmenu__link-selected--height: 4px;
     }
 
     &__link {
+        font-family: 'Montserrat', sans-serif;
         padding: 10px 16px;
         // display: inline-block;
         line-height: 30px;
         // font-size: 16px;
         text-decoration: none;
-        color: #8ff;
+        color: #fff;
         // text-transform: uppercase;
         transition: opacity .25s ease;
         // font-weight: 700;
@@ -48,7 +51,7 @@ $mainmenu__link-selected--height: 4px;
             transition: width .25s ease .15s, left .25s ease .15s, height .25s ease;
             // transition: width .25s ease .25s, left .25s ease .25s;
             // background: rgba(#fff,.4);
-            background: #8ff;
+            background: #e00808;
             // border-radius: 0 0 100% 100%;
             // margin-top: -$mainmenu__link-selected--height/2;
         }
@@ -73,13 +76,28 @@ $mainmenu__link-selected--height: 4px;
 
         &--logo {
             // font-family: 'Montserrat', sans-serif;
-            font-family: monospace;
-            letter-spacing: .1em;
+            text-align: left;
         }
 
         .mainmenu__social-nav & {
             padding: 10px 8px;
         }
+    }
+
+    &__logo-title {
+        position: relative;
+        display: block;
+        font-size: 16px;
+        line-height: 16px;
+        color: rgba(#fff,1);
+    }
+
+    &__logo-subtitle {
+        position: relative;
+        display: block;
+        font-size: 14px;
+        line-height: 14px;
+        color: rgba(#fff,.4);
     }
 
     &__social-nav {
@@ -108,6 +126,7 @@ $mainmenu__link-selected--height: 4px;
         width: auto;
         height: 30px;
         vertical-align: middle;
+        margin-right: 1em;
 
         .mainmenu__social-nav & {
             padding: 4px 0;
@@ -118,7 +137,7 @@ $mainmenu__link-selected--height: 4px;
     &__link-name {
         line-height: 30px;
         vertical-align: middle;
-        margin-left: 1em;
+        // margin-left: 1em;
         float: left;
         display: none;
         font-size: 14px;

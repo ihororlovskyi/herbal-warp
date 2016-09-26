@@ -24,26 +24,28 @@ class MainMenu extends React.Component {
                 <div className='mainmenu__container'>
 
                     <Link to={ prefixLink('/')} className='mainmenu__link mainmenu__link--logo' activeClassName='is-selected' onlyActiveOnIndex>
-                        <img className='mainmenu__link-svg' src={ prefixLink(iconSentimonyRecordsLogo) }/>
-                        <span className='mainmenu__link-name'>{ config.siteTitle }</span>
-                        <span className='mainmenu__link-name'>{ config.siteDescr }</span>
                         <Ink />
+                        <img className='mainmenu__link-svg' src={ prefixLink(iconSentimonyRecordsLogo) }/>
+                        <span className='mainmenu__link-name'>
+                            <span className='mainmenu__logo-title'>{ config.siteTitle }</span>
+                            <span className='mainmenu__logo-subtitle'>{ config.siteDescr }</span>
+                        </span>
                     </Link>
 
                     <Link to={ prefixLink('/releases/')} className={`mainmenu__link ${ location.pathname.indexOf(prefixLink('/releases/')) == 0 ? 'is-selected' : '' }`}>
-                        <img className='mainmenu__link-svg' src={ prefixLink(iconDiscogs) }/>
+                        <img className='mainmenu__link-svg' style={{display:'none'}} src={ prefixLink(iconDiscogs) }/>
                         <span className='mainmenu__link-name'>Releases</span>
                         <Ink />
                     </Link> 
 
                     <Link to={ prefixLink('/artists/')} className={`mainmenu__link ${ location.pathname.indexOf(prefixLink('/artists/')) == 0 ? 'is-selected' : '' }`}>
-                        <img className='mainmenu__link-svg' src={ prefixLink(iconDiscography) }/>
+                        <img className='mainmenu__link-svg' style={{display:'none'}} src={ prefixLink(iconDiscography) }/>
                         <span className='mainmenu__link-name'>Artists</span>
                         <Ink />
                     </Link> 
 
                     <Link to={ prefixLink('/events/')} className={`mainmenu__link ${ location.pathname.indexOf(prefixLink('/events/')) == 0 ? 'is-selected' : '' }`}>
-                        <img className='mainmenu__link-svg' src={ prefixLink(iconEvevt) }/>
+                        <img className='mainmenu__link-svg' style={{display:'none'}} src={ prefixLink(iconEvevt) }/>
                         <span className='mainmenu__link-name'>Events</span>
                         <Ink />
                     </Link> 
