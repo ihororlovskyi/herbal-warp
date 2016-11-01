@@ -52,16 +52,14 @@ class MainMenu extends React.Component {
 
                     <div className='mainmenu__social-nav'>
 
-                        <span className='mainmenu__join'>Follow</span>
+                        <a href={ config.siteFacebookUrl } className='mainmenu__link' target='_blank'>
+                            <img className='mainmenu__link-svg' src={ prefixLink(iconFacebook) }/>
+                            <span className='mainmenu__link-name'>facebook</span>
+                        </a>
 
                         <a href={ config.siteBandcampUrl } className='mainmenu__link' target='_blank'>
                             <img className='mainmenu__link-svg' src={ prefixLink(iconBandcamp) }/>
                             <span className='mainmenu__link-name'>bandcamp</span>
-                        </a>
-
-                        <a href={ config.siteFacebookUrl } className='mainmenu__link' target='_blank'>
-                            <img className='mainmenu__link-svg' src={ prefixLink(iconFacebook) }/>
-                            <span className='mainmenu__link-name'>facebook</span>
                         </a>
 
                     </div>
