@@ -21,20 +21,6 @@ class Footer extends React.Component {
                         <span className='footer__powered-fx'>Rooster Studio</span>
                     </a>
                 </div>
-                <div className='footer__powered'>
-                    web design by
-                    <a href='http://antonpivniuk.github.io' className='footer__powered-link' target='_blank'>
-                        <img className='footer__powered-svg' src={ prefixLink(iconEagle) }/>
-                        <span className='footer__powered-fx'>Anton Pivniuk</span>
-                    </a>
-                </div>
-                <div className='footer__powered'>
-                    web development by
-                    <a href='http://ihororlovskyi.com' className='footer__powered-link' target='_blank'>
-                        <img className='footer__powered-svg' src={ prefixLink(iconEagle) }/>
-                        <span className='footer__powered-fx'>Ihor Orlovskyi</span>
-                    </a>
-                </div>
             </div>
         );
     }

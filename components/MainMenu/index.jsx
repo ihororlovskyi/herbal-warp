@@ -24,15 +24,15 @@ class MainMenu extends React.Component {
                 <div className='mainmenu__container'>
 
                     <Link to={ prefixLink('/')} className='mainmenu__link mainmenu__link--logo' activeClassName='is-selected' onlyActiveOnIndex>
-                        <Ink />
                         <img className='mainmenu__link-svg' src={ prefixLink(iconSentimonyRecordsLogo) }/>
                         <span className='mainmenu__link-name'>
                             <span className='mainmenu__logo-title'>{ config.siteTitle }</span>
                             <span className='mainmenu__logo-subtitle'>{ config.siteDescr }</span>
                         </span>
+                        <Ink />
                     </Link>
 
-                    <Link to={ prefixLink('/releases/')} className={`mainmenu__link ${ location.pathname.indexOf(prefixLink('/releases/')) == 0 ? 'is-selected' : '' }`}>
+                    <Link to={ prefixLink('/releases/')} className='mainmenu__link' activeClassName='is-selected' >
                         <img className='mainmenu__link-svg' style={{display:'none'}} src={ prefixLink(iconDiscogs) }/>
                         <span className='mainmenu__link-name'>Releases</span>
                         <Ink />

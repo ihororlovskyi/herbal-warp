@@ -6,11 +6,14 @@
   },
   "scripts": {
     "develop": "gatsby develop",
-    "build": "npm run clean & gatsby build",
+    "build": "npm run clean & gatsby build & copy",
     "clean:public": "rm -rf public",
     "clean": "npm run clean:public",
+    "copy:files": "cp pages/*.{pdf,txt,png,jpg,jpeg,gif} public/",
+    "copy": "npm run copy:files",
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gatsby build --prefix-links && gh-pages -d public"
   },
   "dependencies": {
     "babel-plugin-add-module-exports": "^0.2.1",
@@ -28,7 +31,6 @@
     "moment": "^2.12.0",
     "react-document-title": "^2.0.1",
     "react-ga": "^2.1.1",
-    "react-google-analytics": "^0.2.0",
     "react-ink": "^5.1.1",
     "react-router": "^2.4.0",
     "safe-access": "^0.1.0",
@@ -43,6 +45,7 @@
     "eslint-plugin-jsx-a11y": "^2.2.0",
     "eslint-plugin-react": "^6.2.0",
     "file-loader": "^0.9.0",
+    "gh-pages": "^0.12.0",
     "image-webpack-loader": "^2.0.0",
     "lost": "^7.0.4",
     "rucksack-css": "^0.8.5"
