@@ -8,6 +8,6 @@ siteDiscogsUrl = 'https://www.discogs.com/label/82598-Sentimony-Records'
 siteTwitterUrl = 'https://twitter.com/sentimony'
 siteGoogleplusUrl = ''
 siteGithubUrl = 'https://github.com/sentimony'
-siteYoutubeUrl = 'https://www.youtube.com/c/SentimonyRecords'
+siteYoutubeUrl = 'https://www.youtube.com/channel/UCMvuVxLPE5VBjw0YH1uE4ig'
 
 linkPrefix = "/sentimony-react"

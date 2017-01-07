@@ -52,6 +52,11 @@ class MainMenu extends React.Component {
 
                     <div className='mainmenu__social-nav'>
 
+                        <a href={ config.siteYoutubeUrl } className='mainmenu__link' target='_blank'>
+                            <img className='mainmenu__link-svg' src={ prefixLink(iconFacebook) }/>
+                            <span className='mainmenu__link-name'>youtube</span>
+                        </a>
+
                         <a href={ config.siteFacebookUrl } className='mainmenu__link' target='_blank'>
                             <img className='mainmenu__link-svg' src={ prefixLink(iconFacebook) }/>
                             <span className='mainmenu__link-name'>facebook</span>
