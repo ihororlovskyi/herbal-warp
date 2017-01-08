@@ -14,10 +14,10 @@ class HomePage extends React.Component {
         return (
             <div className='homepage'>
 
-                <img className='homepage__logo' style={{display:'block'}} src={ prefixLink(logoSentimonyRecords) } alt='{ config.siteTitle } Logo' />
+                <img className='homepage__logo' src={ prefixLink(logoSentimonyRecords) } alt='{ config.siteTitle } Logo' style={{display:'none'}}/>
 
-                <h1 className='homepage__title'>{ config.siteTitle }</h1>
-                <h2 className='homepage__description'>{ config.siteDescr }</h2>
+                <h1 className='homepage__title' style={{display:'none'}}>{ config.siteTitle }</h1>
+                <h2 className='homepage__description' style={{display:'none'}}>{ config.siteDescr }</h2>
 
                 <div dangerouslySetInnerHTML={{ __html: page.body}} />
 
