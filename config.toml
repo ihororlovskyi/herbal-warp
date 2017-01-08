@@ -10,4 +10,4 @@ siteGoogleplusUrl = ''
 siteGithubUrl = 'https://github.com/sentimony'
 siteYoutubeUrl = 'https://www.youtube.com/channel/UCMvuVxLPE5VBjw0YH1uE4ig'
 
-linkPrefix = ""
+linkPrefix = ''
