@@ -12,6 +12,7 @@ import iconFacebook from '../../static/img/svg-icons/facebook.svg'
 import iconGithub from '../../static/img/svg-icons/github.svg'
 import iconEvevt from '../../static/img/svg-icons/event.svg'
 import iconDiscogs from '../../static/img/svg-icons/discogs.svg'
+import iconYoutube from '../../static/img/svg-icons/youtube.svg'
 
 class MainMenu extends React.Component {
     render() {
@@ -32,19 +33,19 @@ class MainMenu extends React.Component {
                         <Ink />
                     </Link>
 
-                    <Link to={ prefixLink('/releases/')} className='mainmenu__link' activeClassName='is-selected' >
+                    <Link to={ prefixLink('/releases/')} className='mainmenu__link' activeClassName='is-selected'>
                         <img className='mainmenu__link-svg' style={{display:'none'}} src={ prefixLink(iconDiscogs) }/>
                         <span className='mainmenu__link-name'>Releases</span>
                         <Ink />
                     </Link> 
 
-                    <Link to={ prefixLink('/artists/')} className={`mainmenu__link ${ location.pathname.indexOf(prefixLink('/artists/')) == 0 ? 'is-selected' : '' }`}>
+                    <Link to={ prefixLink('/artists/')} className={`mainmenu__link ${ location.pathname.indexOf(prefixLink('/artists/')) == 0 ? 'is-selected' : '' }`} style={{display:'none'}}>
                         <img className='mainmenu__link-svg' style={{display:'none'}} src={ prefixLink(iconDiscography) }/>
                         <span className='mainmenu__link-name'>Artists</span>
                         <Ink />
                     </Link> 
 
-                    <Link to={ prefixLink('/events/')} className={`mainmenu__link ${ location.pathname.indexOf(prefixLink('/events/')) == 0 ? 'is-selected' : '' }`}>
+                    <Link to={ prefixLink('/events/')} className={`mainmenu__link ${ location.pathname.indexOf(prefixLink('/events/')) == 0 ? 'is-selected' : '' }`} style={{display:'none'}}>
                         <img className='mainmenu__link-svg' style={{display:'none'}} src={ prefixLink(iconEvevt) }/>
                         <span className='mainmenu__link-name'>Events</span>
                         <Ink />
@@ -53,7 +54,7 @@ class MainMenu extends React.Component {
                     <div className='mainmenu__social-nav'>
 
                         <a href={ config.siteYoutubeUrl } className='mainmenu__link' target='_blank'>
-                            <img className='mainmenu__link-svg' src={ prefixLink(iconFacebook) }/>
+                            <img className='mainmenu__link-svg' src={ prefixLink(iconYoutube) }/>
                             <span className='mainmenu__link-name'>youtube</span>
                         </a>
 
