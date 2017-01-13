@@ -15,6 +15,8 @@ ektoplazm: http://www.ektoplazm.com/free-music/fantazma
 discogs: http://www.discogs.com/Various-Fantazma/release/952240
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLp2GaPnw5O3Ngdrr8pc8W_jAk5PC_ie-l" frameborder="0" allowfullscreen></iframe>
+
 Tracklis:
 
 01. Harax - Dreamy [80bpm]
@@ -28,5 +30,3 @@ Tracklis:
 09. Solcast - Cheiook [80bpm]
 10. Ader Project - Serotonin [100bpm]
 11. Sphingida - Outside [64bpm]
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLp2GaPnw5O3Ngdrr8pc8W_jAk5PC_ie-l" frameborder="0" allowfullscreen></iframe>
