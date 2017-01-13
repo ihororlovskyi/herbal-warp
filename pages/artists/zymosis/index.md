@@ -20,6 +20,8 @@ youtube: https://www.youtube.com/user/dimitroz
 discogs: https://www.discogs.com/artist/588937-Zymosis
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLp2GaPnw5O3MWPpPY_-yzMN43PdBs3f96" frameborder="0" allowfullscreen></iframe>
+
 Zymosis is one of the most promising Ukranian psy-trance projects which has brought a bright light to the psychedelic culture over the past 10 years. Zymosis music successfully combine elements of deep chill, ambient and downtempo sounds with the bright melodious harmonies.
 
 Nowadays Dimitro is also working on goa-trance project Alienapia, which has already been released on popular compilations and it becomes famous with every new day.
