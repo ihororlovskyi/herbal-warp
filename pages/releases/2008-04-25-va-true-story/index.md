@@ -15,6 +15,8 @@ ektoplazm: http://www.ektoplazm.com/free-music/true-story
 discogs: http://www.discogs.com/Various-True-Story/release/1321723
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLp2GaPnw5O3NvqIWcRclfziSECY_BT1Ez" frameborder="0" allowfullscreen></iframe>
+
 Tracklis:
 
 01. Spectrum Vision - Mystical Experiences [120bpm]
@@ -29,5 +31,3 @@ Tracklis:
 10. Unstable Elements - Yumy (vs Madgentel) [130bpm]
 11. Taff - Wind [110bpm]
 12. Sol - Chudo 81 (Harax Version) [110bpm]
-
-
