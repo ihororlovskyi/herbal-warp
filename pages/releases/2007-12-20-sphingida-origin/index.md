@@ -15,6 +15,8 @@ ektoplazm: http://www.ektoplazm.com/free-music/sphingida-origin
 discogs: http://www.discogs.com/Sphingida-Origin/release/1171746
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLp2GaPnw5O3OxCOTqW6opBhhXWwftxrFL" frameborder="0" allowfullscreen></iframe>
+
 Tracklis:
 
 01. Sphingida - Sunset Sign [100bpm]
@@ -27,5 +29,3 @@ Tracklis:
 08. Sphingida - Alone In Aqua Endless [125bpm]
 09. Sphingida - In The Algae [100bpm]
 10. Sphingida - New Age Lullaby [96bpm]
-
-
