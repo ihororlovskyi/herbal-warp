@@ -11,6 +11,9 @@ import iconEvents from '../../static/img/svg-icons/event.svg'
 
 class MainMenu extends React.Component {
     render() {
+        const {location} = this.props
+        const {route} = this.props
+        const page = route.page.data
 
         return (
             <div className='mainmenu'>
@@ -36,6 +39,11 @@ class MainMenu extends React.Component {
             </div>
         );
     }
+}
+
+MainMenu.propTypes = {
+    location: React.PropTypes.object,
+    page: React.PropTypes.object,
 }
 
 export default MainMenu
