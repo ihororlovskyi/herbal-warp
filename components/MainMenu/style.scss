@@ -3,17 +3,6 @@
 @import '../../node_modules/coriolan-ui/mixins/clearfix';
 
 .mainmenu {
-    position: relative;
-    z-index: 1000;
-    padding: 0 10px;
-    box-sizing: border-box;
-    border-bottom: 1px solid rgba(#fff,.3);
-
-    &__container {
-        max-width: 999px;
-        margin: 0 auto;
-        @include clearfix;
-    }
 
     &__link {
         padding: 10px 16px;
@@ -50,44 +39,24 @@
             }
         }
 
-        &--logo {
-            text-align: left;
+        &-icon {
+            float: left;
+            width: auto;
+            height: 30px;
+            vertical-align: middle;
         }
-    }
 
-    &__logo-title {
-        position: relative;
-        display: block;
-        font-size: 16px;
-        line-height: 16px;
-        color: rgba(#fff,1);
-    }
+        &-name {
+            line-height: 30px;
+            vertical-align: middle;
+            margin-left: 1em;
+            float: left;
+            display: none;
+            font-size: 14px;
 
-    &__logo-subtitle {
-        position: relative;
-        display: block;
-        font-size: 14px;
-        line-height: 14px;
-        color: rgba(#fff,.4);
-    }
-
-    &__link-svg {
-        float: left;
-        width: auto;
-        height: 30px;
-        vertical-align: middle;
-    }
-
-    &__link-name {
-        line-height: 30px;
-        vertical-align: middle;
-        margin-left: 1em;
-        float: left;
-        display: none;
-        font-size: 14px;
-
-        @include media(M) {
-            display: inline-block;
+            @include media(M) {
+                display: inline-block;
+            }
         }
     }
 }

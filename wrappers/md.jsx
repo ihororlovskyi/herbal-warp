@@ -1,6 +1,6 @@
 import React from 'react'
 import DocumentTitle from 'react-document-title'
-import MainMenu from '../components/MainMenu'
+import Header from '../components/Header'
 import Footer from '../components/Footer'
 import HomePage from '../components/HomePage'
 import ReleasePage from '../components/ReleasePage'
@@ -41,7 +41,7 @@ class MarkdownWrapper extends React.Component {
             <DocumentTitle title={ `${post.title} • ${config.siteTitle}` }>
                 <div className='flex-sticky'>
                     <div className='flex-sticky__content'>
-                        <MainMenu {...this.props} />
+                        <Header {...this.props} />
                         <div className='main-container'>
                             { template }
                         </div>
