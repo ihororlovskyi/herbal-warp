@@ -11,5 +11,19 @@
         max-width: 999px;
         margin: 0 auto;
         @include clearfix;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__header-logo {
+        flex-grow: 1;
+    }
+
+    &__mainmenu {
+        flex-grow: 1;
+    }
+
+    &__socnav {
+        flex-grow: 0;
     }
 }
