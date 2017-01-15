@@ -11,14 +11,18 @@ class HeaderLogo extends React.Component {
     render() {
 
         return (
-            <Link to={ prefixLink('/')} className='header-logo' activeClassName='is-selected' onlyActiveOnIndex>
-                <img className='header-logo__icon' src={ prefixLink(iconSentimonyRecordsLogo) }/>
-                <div className='header-logo__name'>
-                    <div className='header-logo__name-title'>{ config.siteTitle }</div>
-                    <div className='header-logo__name-subtitle'>{ config.siteDescr }</div>
-                </div>
-                <Ink />
-            </Link>
+            <div className='header-logo'>
+
+                <Link to={ prefixLink('/')} className='header-logo__link' activeClassName='is-selected' onlyActiveOnIndex>
+                    <img className='header-logo__link-icon' src={ prefixLink(iconSentimonyRecordsLogo) }/>
+                    <div className='header-logo__link-name'>
+                        <div className='header-logo__link-name-title'>{ config.siteTitle }</div>
+                        <div className='header-logo__link-name-subtitle'>{ config.siteDescr }</div>
+                    </div>
+                    <Ink />
+                </Link>
+
+            </div>
         );
     }
 }
