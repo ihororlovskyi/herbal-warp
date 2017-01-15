@@ -7,6 +7,13 @@
     box-sizing: border-box;
     border-bottom: 1px solid rgba(#fff,.3);
 
+    &__iframe {
+        width: 355px;
+        height: 200px;
+        border: none;
+        margin-bottom: 20px;
+    }
+
     &__wrapper {
         max-width: 999px;
         margin: 0 auto;

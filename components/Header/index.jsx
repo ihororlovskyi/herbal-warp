@@ -13,6 +13,9 @@ class Header extends React.Component {
 
         return (
             <div className='header'>
+
+                <iframe className='header__iframe' src='https://www.youtube.com/embed/videoseries?list=PLp2GaPnw5O3NDR31aD0msR3f6soE9gVWk' allowFullScreen />
+
                 <div className='header__wrapper'>
 
                     <div className='header__header-logo'>
