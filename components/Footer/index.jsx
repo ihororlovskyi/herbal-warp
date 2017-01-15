@@ -21,6 +21,7 @@ class Footer extends React.Component {
                         <span className='footer__powered-fx'>Rooster Studio</span>
                     </a>
                 </div>
+                <iframe width='160' height='90' src='https://www.youtube.com/embed/videoseries?list=PLp2GaPnw5O3NDR31aD0msR3f6soE9gVWk' frameBorder='0' allowFullScreen />
             </div>
         );
     }
