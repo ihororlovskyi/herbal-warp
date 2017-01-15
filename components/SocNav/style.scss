@@ -3,11 +3,11 @@
 
 .socnav {
     display: flex;
-    float: right;
 
     &__link {
         position: relative;
-        padding: 10px 8px;
+        height: 50px;
+        padding: 0 8px;
         color: #fff;
         text-decoration: none;
         display: flex;
@@ -21,7 +21,7 @@
 
         &-icon {
             width: auto;
-            height: 30px;
+            height: 20px;
         }
 
         &-name {
