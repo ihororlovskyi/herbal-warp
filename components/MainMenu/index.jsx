@@ -11,9 +11,6 @@ import iconEvents from '../../static/img/svg-icons/event.svg'
 
 class MainMenu extends React.Component {
     render() {
-        const {location} = this.props
-        const {route} = this.props
-        const page = route.page.data
 
         return (
             <div className='mainmenu'>
@@ -25,13 +22,13 @@ class MainMenu extends React.Component {
                 </Link> 
 
                 <Link to={ prefixLink('/artists/')} className={`mainmenu__link ${ location.pathname.indexOf(prefixLink('/artists/')) == 0 ? 'is-selected' : '' }`} style={{display:'none'}}>
-                    <img className='mainmenu__link-icon' style={{display:'none'}} src={ prefixLink(iconArtists) }/>
+                    <img className='mainmenu__link-icon' src={ prefixLink(iconArtists) }/>
                     <span className='mainmenu__link-name'>Artists</span>
                     <Ink />
                 </Link> 
 
                 <Link to={ prefixLink('/events/')} className={`mainmenu__link ${ location.pathname.indexOf(prefixLink('/events/')) == 0 ? 'is-selected' : '' }`} style={{display:'none'}}>
-                    <img className='mainmenu__link-icon' style={{display:'none'}} src={ prefixLink(iconEvents) }/>
+                    <img className='mainmenu__link-icon' src={ prefixLink(iconEvents) }/>
                     <span className='mainmenu__link-name'>Events</span>
                     <Ink />
                 </Link> 
@@ -39,11 +36,6 @@ class MainMenu extends React.Component {
             </div>
         );
     }
-}
-
-MainMenu.propTypes = {
-    location: React.PropTypes.object,
-    page: React.PropTypes.object,
 }
 
 export default MainMenu
