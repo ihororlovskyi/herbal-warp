@@ -1,4 +1,5 @@
-@import '../../node_modules/coriolan-ui/mixins/clearfix';
+@import '../../node_modules/coriolan-ui/tools/variables';
+@import '../../node_modules/coriolan-ui/mixins/media';
 
 .release-list {
     display: flex;
@@ -14,47 +15,51 @@
         color: #8ff;
         position: relative;
         font-size: 12px;
-        // flex-basis: 33.33333%;
-        flex-basis: 25%;
+        flex-basis: 50%;
         color: white;
         text-decoration: none;
         padding: 0 10px 20px;
         box-sizing: border-box;
 
+        @include media(M) {
+            // flex-basis: 33.33333%;
+            flex-basis: 25%;
+        }
+
         .release-page & {
             flex-basis: 100%;
             padding: 0;
-        }
-
-        &:after,
-        &:before {
-            content: '';
-            position: absolute;
-            height: 1px;
-            width: 0;
-            background: #8ff;;
-            transition: width .35s ease;
-            z-index: 20;
-        }
-
-        &:after {
-            left: 0;
-            top: 0;
-        }
-
-        &:before {
-            right: 0;
-            bottom: 0;
-        }
-
-        &:hover,
-        &.is-selected {
-            // color: #fff;
-            background: rgba(#fff,.1);
 
             &:after,
             &:before {
-                width: 100%;
+                content: '';
+                position: absolute;
+                height: 1px;
+                width: 0;
+                background: #8ff;;
+                transition: width .35s ease;
+                z-index: 20;
+            }
+
+            &:after {
+                left: 0;
+                top: 0;
+            }
+
+            &:before {
+                right: 0;
+                bottom: 0;
+            }
+
+            &:hover,
+            &.is-selected {
+                // color: #fff;
+                background: rgba(#fff,.1);
+
+                &:after,
+                &:before {
+                    width: 100%;
+                }
             }
         }
     }
