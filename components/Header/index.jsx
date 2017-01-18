@@ -12,24 +12,25 @@ class Header extends React.Component {
     render() {
 
         return (
-            <div className='header'>
-
+            <div>
                 <iframe className='header__iframe' src='https://www.youtube.com/embed/videoseries?list=PLp2GaPnw5O3NDR31aD0msR3f6soE9gVWk' allowFullScreen />
+                <div className='header'>
 
-                <div className='header__wrapper'>
+                    <div className='header__wrapper'>
 
-                    <div className='header__header-logo'>
-                        <HeaderLogo {...this.props} />
+                        <div className='header__header-logo'>
+                            <HeaderLogo {...this.props} />
+                        </div>
+
+                        <div className='header__mainmenu'>
+                            <MainMenu {...this.props} />
+                        </div>
+
+                        <div className='header__socnav'>
+                            <SocNav {...this.props} />
+                        </div>
+
                     </div>
-
-                    <div className='header__mainmenu'>
-                        <MainMenu {...this.props} />
-                    </div>
-
-                    <div className='header__socnav'>
-                        <SocNav {...this.props} />
-                    </div>
-
                 </div>
             </div>
         );
