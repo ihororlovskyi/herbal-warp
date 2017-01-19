@@ -14,8 +14,6 @@ _Web development of Sentimony Records site_
 
 ### Run
 
-`cd site`
-
 `npm i`
 
 `npm start`
