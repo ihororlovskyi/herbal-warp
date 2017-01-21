@@ -22,8 +22,10 @@
             left: 50%;
             width: 0;
             height: 0;
-            transition: width .25s ease .15s, left .25s ease .15s, height .25s ease;
-            background: #e00808;
+            transition: width .25s ease .15s,
+                        left .25s ease .15s,
+                        height .25s ease;
+            background: #8ff;
         }
 
         &:hover {
