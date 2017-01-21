@@ -1,9 +1,9 @@
 @import '../../node_modules/coriolan-ui/mixins/ratio';
 
-.youtube-iframe {
-        max-width: 555px;
-        margin: 0 auto;
-        padding: 10px;
+.youtube {
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 10px;
 
     &__wrapper {
         @include ratio(100%,16,9);

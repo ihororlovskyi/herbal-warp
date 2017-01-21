@@ -5,7 +5,7 @@ import Ink from 'react-ink'
 import HeaderLogo from '../HeaderLogo'
 import MainMenu from '../MainMenu'
 import SocNav from '../SocNav'
-import YoutubeIframe from '../YoutubeIframe'
+import Youtube from '../Youtube'
 
 import './style.scss'
 
@@ -14,7 +14,7 @@ class Header extends React.Component {
 
         return (
             <div>
-                <YoutubeIframe {...this.props} />
+                <Youtube {...this.props} />
 
                 <div className='header'>
                     <div className='header__wrapper'>
