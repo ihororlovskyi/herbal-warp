@@ -15,7 +15,9 @@ ektoplazm: http://www.ektoplazm.com/free-music/emptinesses
 discogs: http://www.discogs.com/Various-Emptinesses/release/1021635
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLp2GaPnw5O3NOkIC2Cxy_qAeHMmgqEAYP" frameborder="0" allowfullscreen></iframe>
+<div class='youtube__wrapper'>
+    <iframe class='youtube__iframe' src='https://www.youtube.com/embed/videoseries?list=PLp2GaPnw5O3NOkIC2Cxy_qAeHMmgqEAYP' allowfullscreen></iframe>
+</div>
 
 Tracklis:
 
