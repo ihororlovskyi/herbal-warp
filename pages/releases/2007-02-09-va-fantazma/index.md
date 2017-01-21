@@ -15,7 +15,9 @@ ektoplazm: http://www.ektoplazm.com/free-music/fantazma
 discogs: http://www.discogs.com/Various-Fantazma/release/952240
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLp2GaPnw5O3Ngdrr8pc8W_jAk5PC_ie-l" frameborder="0" allowfullscreen></iframe>
+<div class='youtube__wrapper'>
+    <iframe class='youtube__iframe' src='https://www.youtube.com/embed/videoseries?list=PLp2GaPnw5O3Ngdrr8pc8W_jAk5PC_ie' allowfullscreen></iframe>
+</div>
 
 Tracklis:
 
