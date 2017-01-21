@@ -18,7 +18,7 @@ class MainMenu extends React.Component {
         return (
             <div className='mainmenu'>
 
-                <Link to={ prefixLink('/releases/')} className='mainmenu__link' activeClassName='is-selected'>
+                <Link to={ prefixLink('/releases/')} className={`mainmenu__link ${ location.pathname.indexOf(prefixLink('/releases/')) == 0 ? 'is-selected' : '' }`} >
                     <img className='mainmenu__link-icon' src={ prefixLink(iconReleases) }/>
                     <span className='mainmenu__link-name'>Releases</span>
                     <Ink />
