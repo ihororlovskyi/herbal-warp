@@ -5,6 +5,7 @@ import Ink from 'react-ink'
 import HeaderLogo from '../HeaderLogo'
 import MainMenu from '../MainMenu'
 import SocNav from '../SocNav'
+import YoutubeIframe from '../YoutubeIframe'
 
 import './style.scss'
 
@@ -13,9 +14,9 @@ class Header extends React.Component {
 
         return (
             <div>
-                <iframe className='header__iframe' src='https://www.youtube.com/embed/videoseries?list=PLp2GaPnw5O3NDR31aD0msR3f6soE9gVWk' allowFullScreen />
-                <div className='header'>
+                <YoutubeIframe {...this.props} />
 
+                <div className='header'>
                     <div className='header__wrapper'>
 
                         <div className='header__header-logo'>
@@ -32,6 +33,7 @@ class Header extends React.Component {
 
                     </div>
                 </div>
+
             </div>
         );
     }
