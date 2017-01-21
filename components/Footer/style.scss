@@ -2,35 +2,23 @@
 
 .footer {
     padding: 40px 10px;
-    background: #050505;
-    // color: #000;
+    background: rgba(#000,.3);
     position: relative;
 
     &__copyright {
-        // font-family: 'PT Sans', sans-serif;
-        // color: #ef4030;
-        // text-transform: uppercase;
-        // letter-spacing: 4px;
-        // font-size: 13px;
         margin-bottom: 20px;
     }
 
     &__powered {
-        // font-family: 'PT Sans', sans-serif;
-        // color: rgba(#fff,.5);
-        // text-transform: uppercase;
         letter-spacing: 2.5px;
         font-size: 10px;
-        // letter-spacing: 2px;
 
         &-link {
             color: #8ff;
             text-decoration: none;
-            // padding: 3px 0;
             padding: 0 0 2px;
             cursor: pointer;
             margin-left: 8px;
-            // position: relative;
             display: inline-block;
         }
 
