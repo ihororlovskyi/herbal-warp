@@ -15,7 +15,9 @@ ektoplazm: http://www.ektoplazm.com/free-music/sphingida-origin
 discogs: http://www.discogs.com/Sphingida-Origin/release/1171746
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLp2GaPnw5O3OxCOTqW6opBhhXWwftxrFL" frameborder="0" allowfullscreen></iframe>
+<div class='youtube__wrapper'>
+    <iframe class='youtube__iframe' src='https://www.youtube.com/embed/videoseries?list=PLp2GaPnw5O3OxCOTqW6opBhhXWwftxrFL' allowfullscreen></iframe>
+</div>
 
 Tracklis:
 
