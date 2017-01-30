@@ -16,7 +16,7 @@ _Web development of Sentimony Records site_
 
 `npm i`
 
-`npm start`
+`npm run develop`
 
 ### Deploy
 
