@@ -15,15 +15,14 @@
         color: #8ff;
         position: relative;
         font-size: 12px;
-        flex-basis: 50%;
+        flex-basis: (100% / 2);
         color: white;
         text-decoration: none;
         padding: 0 10px 20px;
         box-sizing: border-box;
 
         @include media(M) {
-            // flex-basis: 33.33333%;
-            flex-basis: 25%;
+            flex-basis: (100% / 4);
         }
 
         .release-page & {
@@ -53,7 +52,6 @@
 
             &:hover,
             &.is-selected {
-                // color: #fff;
                 background: rgba(#fff,.1);
 
                 &:after,
@@ -69,7 +67,6 @@
         height: auto;
         display: block;
         margin: 0 auto;
-        // transition: width .2s ease;
 
         .release-page & {
             width: 24px;
@@ -79,17 +76,11 @@
     }
 
     &__title {
-        // position: absolute;
-        // width: 100%;
-        // left: 0;
-        // bottom: 0;
         padding: 10px 0;
         font-size: 14px;
         background: rgba(#222,.5);
-        // transform: translate3d(0,-100%,0);
 
         .release-page & {
-            // position: relative;
             padding: 6px 0;
             font-size: 12px;
             background: rgba(#222,.0);
