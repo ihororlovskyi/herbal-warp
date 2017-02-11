@@ -1,9 +1,17 @@
 @import '../../node_modules/coriolan-ui/mixins/media';
 
 .footer {
-    padding: 40px 10px;
-    background: rgba(#000,.3);
     position: relative;
+
+    &__wrapper {
+        padding: 40px 10px;
+        max-width: 975px;
+        background: rgba(#000,.3);
+        margin: 0 auto;
+        box-sizing: border-box;
+        background: #4c86ac;
+        color: #fff;
+    }
 
     &__copyright {
         margin-bottom: 20px;
