@@ -1,12 +1,25 @@
+@import '../../node_modules/coriolan-ui/tools/variables';
+@import '../../node_modules/coriolan-ui/mixins/media';
 @import '../../node_modules/coriolan-ui/mixins/ratio';
 
 .youtube {
-    max-width: 420px;
+    max-width: 975px;
+    // padding: 10px;
+    // box-sizing: border-box;
+    // background: #fff;
     margin: 0 auto;
-    padding: 10px;
+
+    @include media(M) {
+        display: block;
+    }
 
     &__wrapper {
+        margin: 0 auto;
         @include ratio(100%,16,9);
+
+        @include media(M) {
+            @include ratio(50%,16,9);
+        }
     }
 
     &__iframe {
