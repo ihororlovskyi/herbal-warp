@@ -15,7 +15,7 @@ class Footer extends React.Component {
 
                     <div className='footer__powered'>
                         <span>Web Development By</span>
-                        <a href='http://ihororlovskyi.com' className='footer__powered-link' target='_blank'>
+                        <a href='https://ihororlovskyi.com' className='footer__powered-link' target='_blank'>
                             <img className='footer__powered-svg' src={ prefixLink(iconEagle) }/>
                             <span className='footer__powered-fx'>Ihor Orlovskyi</span>
                         </a>
