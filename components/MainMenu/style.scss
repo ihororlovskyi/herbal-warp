@@ -9,7 +9,7 @@
         height: 50px;
         padding: 0 8px;
         text-decoration: none;
-        color: #fff;
+        color: #255161;
         transition: opacity .25s ease;
         position: relative;
         display: flex;
@@ -26,7 +26,7 @@
             transition: width .25s ease .15s,
                         left .25s ease .15s,
                         height .25s ease;
-            background: #8ff;
+            background: #255161;
         }
 
         &:hover {
