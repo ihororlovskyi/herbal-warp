@@ -1,4 +1,36 @@
+// fonts
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+// Base
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background: #1673af;
+    // background: #bbb url(./static/img/backgrounds/default.png);
+    color: #4a4a4a;
+    font: 400 16px/1.4 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6 {
+//     margin: 0 0 1em;
+// }
+
+// p {
+//     margin: 0 0 20px;
+// }
+
+// .index {
+
+// }
 
 // Selection colors
 $selection-color: rgba(#8ff,.5);
@@ -21,35 +53,4 @@ img::-moz-selection {
 
 body {
     -webkit-tap-highlight-color: $selection-color;
-}
-
-// Base
-html {
-    height: 100%;
-}
-
-body {
-    margin: 0;
-    text-align: center;
-    background: #1673af;
-    // background: #bbb url(./static/img/backgrounds/default.png);
-    color: #fff;
-    font: 400 16px/1.4 'Montserrat', Helvetica, Arial, sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0 0 1em;
-}
-
-p {
-    margin: 0 0 20px;
-}
-
-.index {
-
 }
