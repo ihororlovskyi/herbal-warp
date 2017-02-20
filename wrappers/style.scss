@@ -1,3 +1,6 @@
+@import '../node_modules/coriolan-ui/tools/variables';
+@import '../node_modules/coriolan-ui/mixins/media';
+
 body {
     min-height: 100%;
     display: flex;
@@ -12,6 +15,9 @@ body {
     &__content {
         flex: 1;
     }
+
+    &__footer {
+    }
 }
 
 .main-container {
@@ -21,4 +27,18 @@ body {
     text-align: left;
     background: #fff;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
+    @include media(M) {
+        flex-direction: row;
+    }
+
+    &__content {
+        flex-basis: 100%;
+    }
+
+    &__sidebar {
+        min-width: 120px;
+    }
 }

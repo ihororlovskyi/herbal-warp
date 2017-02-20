@@ -9,6 +9,7 @@ import ArtistList from '../components/ArtistList'
 import ArtistPage from '../components/ArtistPage'
 import EventList from '../components/EventList'
 import EventPage from '../components/EventPage'
+import SideBar from '../components/SideBar'
 import { config } from 'config'
 
 import './style.scss'
@@ -42,11 +43,20 @@ class MarkdownWrapper extends React.Component {
                 <div className='flex-sticky'>
                     <div className='flex-sticky__content'>
                         <Header {...this.props} />
+
                         <div className='main-container'>
-                            { template }
+                            <div className='main-container__content'>
+                                { template }
+                            </div>
+                            <div className='main-container__sidebar'>
+                                <SideBar {...this.props} />
+                            </div>
                         </div>
+
                     </div>
-                    <Footer {...this.props} />
+                    <div className='flex-sticky__footer'>
+                        <Footer {...this.props} />
+                    </div>
                 </div>
             </DocumentTitle>
         );
