@@ -4,7 +4,17 @@ layout: HomePage
 path: '/'
 ---
 
-<script src="https://apis.google.com/js/platform.js"></script>
+### Coming Soon:
+
+New release: Zymosis «Insight»
+
+All releases on official youtube channel
+
+New release: VA «Sentimony Records: 10 Years»
+
+
+
+<!-- <script src="https://apis.google.com/js/platform.js"></script>
 
 <script>
   function onYtEvent(payload) {
@@ -19,4 +29,4 @@ path: '/'
   }
 </script>
 
-<div class="g-ytsubscribe" data-channelid="UCMvuVxLPE5VBjw0YH1uE4ig" data-layout="full" data-count="default" data-onytevent="onYtEvent"></div>
+<div class="g-ytsubscribe" data-channelid="UCMvuVxLPE5VBjw0YH1uE4ig" data-layout="full" data-count="default" data-onytevent="onYtEvent"></div> -->
