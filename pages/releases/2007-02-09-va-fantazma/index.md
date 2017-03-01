@@ -16,7 +16,7 @@ discogs: http://www.discogs.com/Various-Fantazma/release/952240
 ---
 
 <div class='youtube__wrapper'>
-    <iframe class='youtube__iframe' src='https://www.youtube.com/embed/videoseries?list=PLp2GaPnw5O3Ngdrr8pc8W_jAk5PC_ie' allowfullscreen></iframe>
+    <iframe class='youtube__iframe' src='https://www.youtube.com/embed/videoseries?list=PLp2GaPnw5O3Ngdrr8pc8W_jAk5PC_ie-l' allowfullscreen></iframe>
 </div>
 
 Tracklis:

@@ -3,11 +3,11 @@
 @import '../../node_modules/coriolan-ui/mixins/ratio';
 
 .youtube {
-    max-width: 975px;
+    max-width: 1111px;
     // padding: 10px;
     // box-sizing: border-box;
     // background: #fff;
-    margin: 0 auto;
+    margin: 0 auto 1em;
 
     @include media(M) {
         display: block;
@@ -17,9 +17,9 @@
         margin: 0 auto;
         @include ratio(100%,16,9);
 
-        @include media(M) {
-            @include ratio(50%,16,9);
-        }
+        // @include media(M) {
+        //     @include ratio(50%,16,9);
+        // }
     }
 
     &__iframe {

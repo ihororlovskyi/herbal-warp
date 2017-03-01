@@ -30,10 +30,10 @@ Producers:
 * ShizoLizer Gin
 * Specrtum Vision
 * Tentura
-* Zymosis feat. Katya Chilly.
+* Zymosis
 
 Mastering: 
 * Makus (<a href="http://overdreamstudio.com" target="_blank">Overdream Studio</a>)
 
 Cover Art: 
-* Anton Pivniuk (<a href="http://rooooster.com" target="_blank">Rooster Studio</a>)
+* Coming Soon
