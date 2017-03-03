@@ -8,10 +8,15 @@ path: '/'
 
 New release: Zymosis «Insight»
 
-All releases on official youtube channel
-
 New release: VA «Sentimony Records: 10 Years»
 
+All releases on youtube
+
+All releases on apple music
+
+All releases on google music
+
+All releases on beatport
 
 
 <!-- <script src="https://apis.google.com/js/platform.js"></script>
