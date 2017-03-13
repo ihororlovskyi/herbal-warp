@@ -1,74 +1,87 @@
 @import '../../node_modules/coriolan-ui/mixins/media';
 
 .footer {
-    position: relative;
+  position: relative;
 
-    &__wrapper {
-        // max-width: 999px;
-        padding: 40px 10px;
-        background: rgba(#000,.3);
-        margin: 0 auto;
-        box-sizing: border-box;
-        background: #1a1a1a;
-        color: #fff;
+  &__wrapper {
+    // max-width: 999px;
+    padding: 40px 10px;
+    background: rgba(#000,.3);
+    margin: 0 auto;
+    box-sizing: border-box;
+    background: #1a1a1a;
+    color: #fff;
+  }
+
+  &__copyright {
+    margin-bottom: 20px;
+  }
+
+  &__powered {
+    letter-spacing: 2.5px;
+    font-size: 10px;
+    display: none;
+
+    &-link {
+      color: #8ff;
+      text-decoration: none;
+      padding: 0 0 2px;
+      cursor: pointer;
+      margin-left: 8px;
+      display: inline-block;
     }
 
-    &__copyright {
-        margin-bottom: 20px;
+    &-svg {
+      display: inline-block;
+      width: auto;
+      height: 24px;
+      margin-right: 8px;
+      vertical-align: middle;
     }
 
-    &__powered {
-        letter-spacing: 2.5px;
-        font-size: 10px;
+    &-fx {
+      position: relative;
+      padding: 0 4px;
 
-        &-link {
-            color: #8ff;
-            text-decoration: none;
-            padding: 0 0 2px;
-            cursor: pointer;
-            margin-left: 8px;
-            display: inline-block;
-        }
+      &:before,
+      &:after {
+        content: '';
+        position: absolute;
+        background: #8ff;
+        transition: left .25s ease;
+        right: 0;
+        height: 1px;
+      }
 
-        &-svg {
-            display: inline-block;
-            width: auto;
-            height: 24px;
-            margin-right: 8px;
-            vertical-align: middle;
-        }
+      &:before {
+        top: 0;
+        left: 100%;
+      }
 
-        &-fx {
-            position: relative;
-            padding: 0 4px;
+      &:after {
+        bottom: -2px;
+        left: 0;
+      }
 
-            &:before,
-            &:after {
-                content: '';
-                position: absolute;
-                background: #8ff;
-                transition: left .25s ease;
-                right: 0;
-                height: 1px;
-            }
+      .footer__powered-link:hover &:before {
+        left: 0;
+      }
 
-            &:before {
-                top: 0;
-                left: 100%;
-            }
-
-            &:after {
-                bottom: -2px;
-                left: 0;
-            }
-
-            .footer__powered-link:hover &:before {
-                left: 0;
-            }
-
-            .footer__powered-link:hover &:after {
-                left: 100%;
-            }
-        }
+      .footer__powered-link:hover &:after {
+        left: 100%;
+      }
     }
+  }
+
+  &__versions {
+    font-size: .6em;
+    a {
+      color: #999;
+      text-decoration: none;
+      padding: .1em .5em;
+      &.is-selected {
+        color: #ccc;
+      }
+    }
+  }
 }
