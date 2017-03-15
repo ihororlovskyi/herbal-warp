@@ -25,9 +25,9 @@ class Footer extends React.Component {
           </div>
 
           <nav className='footer__versions'>
-            <a href='https://sentimony-nuxt.netlify.com'>nuxt</a>
-            <a href='https://sentimony-gatsby.netlify.com' className='is-selected'>gatsby</a>
-            <a href='https://sentimony-jekyll.netlify.com'>jekyll</a>
+            <a href='https://sentimony.com'>nuxt</a>
+            <a href='https://gatsby.sentimony.com' className='is-selected'>gatsby</a>
+            <a href='https://jekyll.sentimony.com'>jekyll</a>
           </nav>
 
         </div>

@@ -12,7 +12,7 @@ keywords: Tentura Aurora
 bandcampAlbum: 2261902557
 bandcamp: https://sentimony.bandcamp.com/album/tentura-aurora
 ektoplazm: http://www.ektoplazm.com/free-music/tentura-aurora
-discogs: http://www.discogs.com/Tentura-Beyond-Illusion/release/6775211
+discogs: http://www.discogs.com/Tentura-Aurora/release/4462165
 ---
 
 Tracklist:
