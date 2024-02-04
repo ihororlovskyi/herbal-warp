@@ -45,7 +45,7 @@ const Navbar = () => {
             </li>
             <li className="navbar-item" style={{padding: "0px"}}>
             <Link className="navbar-item" to="/blog">
-              Blog
+              Releases
             </Link>
             </li>
             <li className="navbar-item" style={{padding: "0px"}}>
